@@ -1,0 +1,203 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+html{
+
+}
+body{
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+.banner img{
+    border: 1px solid black;
+}
+
+.menu{
+    background-color: #3097d1;
+    /* margin-bottom: 10px; */
+    margin-top: 1px;
+    
+}
+.menu ul a.li{
+    min-width: 100px;
+}
+.menu ul{
+    padding-right: 107px;
+}
+.menu ul li > a{
+    color: azure;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a.nav-link {
+    color: #fff;
+    display: block;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0 20px !important;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    color: #005094;
+    text-decoration: none;
+}
+.btn-timsim{
+    background-color: #3097d1;
+    color: aliceblue;
+}
+.box2{
+
+
+}
+
+#head2s{
+    margin: 0px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    padding: 5px 13px;
+    line-height: inherit;
+    display: inline-block;
+    text-transform: uppercase;
+    background: #3097d1;
+}
+.b2-list{
+    /* width: 100%; */
+    width: 100%;
+    margin: 0 10px;
+}
+.b2-item{
+    font-size: 13px;
+    font-weight: 700;
+    color: #005064;
+    text-transform: capitalize;
+    min-width: 191px;
+    margin: 300px 0 ;
+}
+.b2-list > li{
+    margin: 10px 0;
+}
+.b2-list > li > a{
+    text-decoration: none;
+}
+.b2-list > li > a:hover{
+    color: #3097d1
+}
+
+#head3s{
+    margin: 0px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    padding: 5px 13px;
+    line-height: inherit;
+    display: inline-block;
+    text-transform: uppercase;
+    background: #3097d1;
+}
+.b3-list{
+    /* width: 100%; */
+    width: 100%;
+    margin: 0 10px;
+}
+.b3-item{
+    font-size: 13px;
+    font-weight: 700;
+    color: #005064;
+    text-transform: capitalize;
+    min-width: 191px;
+    margin: 300px 0 ;
+}
+.b3-list > li{
+    margin: 10px 0;
+}
+.b3-list > li > a{
+    text-decoration: none;
+}
+.b3-list > li > a:hover{
+    color: #3097d1
+}
+/* Sim theo mang */
+#head4s{
+    margin: 0px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    padding: 5px 13px;
+    line-height: inherit;
+    display: inline-block;
+    text-transform: uppercase;
+    background: #3097d1;
+}
+.b4-list{
+    /* width: 100%; */
+    width: 100%;
+    margin: 0 10px;
+}
+.b4-item{
+    font-size: 13px;
+    font-weight: 700;
+    color: #005064;
+    text-transform: capitalize;
+    min-width: 191px;
+    margin: 300px 0 ;
+}
+.b4-list > li{
+    margin: 10px 0;
+}
+.b4-list > li > a{
+    text-decoration: none;
+}
+.b4-list > li > a:hover{
+    color: #3097d1
+}
+@media only screen and (max-width: 780px){
+    .pc{
+        display: none;
+    }
+    .npc{
+
+    }
+    .npc ul > li > a{
+        color: #005064;
+    }
+
+}
+/* Ipad Pro */
+
+@media only screen and (min-width: 1024px){
+    .npc{
+        display: none;
+    }
+}
+.search{
+    background-color: #3097d1;
+    /* position: absolute; */
+
+    padding: 10px;
+}
+.search-txt{
+    width: 100%;
+}
+@media screen and (max-width: 780px) {
+
+}
+
+
+
+
+
