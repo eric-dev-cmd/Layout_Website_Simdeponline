@@ -414,6 +414,42 @@ input:focus{
     font-weight: 700;
     min-width: 200.75px;
 }
+.b2-list > .off1 > a:hover {
+    color: #005064;
+    cursor: grab;
+}
+.b4-list{
+    /* width: 100%; */
+    width: 100%;
+    margin: 0 10px;
+}
+.b4-item{
+    font-size: 13px;
+    font-weight: 700;
+    color: #005064;
+    text-transform: capitalize;
+    min-width: 191px;
+    margin: 300px 0 ;
+}
+.b4-list > li{
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 1.3rem;
+    min-height: 35px;
+    max-width: 190px;
+    line-height: 35px;
+    background: #1d9ce5;
+    padding-left: 10px;
+}
+.b4-list > li > a{
+    text-decoration: none;
+    padding: 0 20px;
+    color: #fff;
+}
+.b4-list > li:hover a{
+    opacity: 1;
+    color: rgb(20, 17, 12);
+}
 @media only screen and (min-width: 1024px){
     .npc{
         display: none;
