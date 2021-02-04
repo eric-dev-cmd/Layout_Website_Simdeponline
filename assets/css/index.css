@@ -12,7 +12,7 @@ body{
     font-family: Arial, sans-serif;
 }
 .banner img{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .menu{
@@ -58,7 +58,11 @@ a {
 
 }
 
-#head2s{
+#head1s, #head2s,
+ #head3s, #head4s,
+  #head5s, #head6s, 
+   #head7s, #head8s
+{
     margin: 0px;
     color: #fff;
     font-weight: 700;
@@ -71,6 +75,7 @@ a {
     text-transform: uppercase;
     background: #3097d1;
 }
+
 .b2-list{
     /* width: 100%; */
     width: 100%;
@@ -94,7 +99,8 @@ a {
     color: #3097d1
 }
 
-#head3s{
+
+.box1 .a{
     margin: 0px;
     color: #fff;
     font-weight: 700;
@@ -130,19 +136,7 @@ a {
     color: #3097d1
 }
 /* Sim theo mang */
-#head4s{
-    margin: 0px;
-    color: #fff;
-    font-weight: 700;
-    text-align: center;
-    font-family: Arial,sans-serif;
-    font-size: 14px;
-    padding: 5px 13px;
-    line-height: inherit;
-    display: inline-block;
-    text-transform: uppercase;
-    background: #3097d1;
-}
+
 .b4-list{
     /* width: 100%; */
     width: 100%;
@@ -244,7 +238,7 @@ a {
     padding: 0;
     width: 100%;
     height: 36px;
-    border: 1px #0098db solid;
+    /* border: 1px #0098db solid; */
     border-radius: 1.3rem;
     outline: blue;
 
@@ -260,7 +254,7 @@ a {
     right: 9px;
     top: 1px;
     height: 34px;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     background: #1d9ce5;
     width: 100px;
     font-weight: 700;
@@ -269,16 +263,8 @@ a {
     border-radius: 1.3rem;
     cursor: pointer;
 }
-input:focus{
-    box-shadow: 0 0 4px rgb(230, 197, 12);
-    border: 1px solid rgb(230, 197, 12);
-}
-.huongdan {
-    display: block;
-    margin-left: 2px;
-    padding-left: 15px;
-    display: block;
-}
+
+
 .bl-2{
     margin: 0;
     padding: 0;
@@ -290,9 +276,6 @@ input:focus{
 
 .nt .nt-bl{
     color: black;
-}
-.nt-fl{
-    text-
 }
 .box7{
     background-color: white;
@@ -317,14 +300,11 @@ input:focus{
     padding: 12px 48px;
     border-radius: 100px;
     cursor: pointer;
-    transition: opacity .2 ease;
+    transition: opacity 0.2 ease;
     min-width: 140px;
     min-height: 10px;
     margin-top: 6px;
     text-transform: capitalize;
-}
-.border{
-    
 }
 .btn-x{
     background-color: #1d9ce5;
@@ -379,13 +359,7 @@ input:focus{
 .price{
     text-align: right;
 }
-.box9{
-    background-color: white;
-    color: black;
-    width: 100%;
-    margin-top: 2px;
-    border: 1px solid black;
-}
+
 .box9 h4 .vt{
     background-image: url('../imgs/Origin/logoviettel.png');
     background-position: center;
@@ -412,18 +386,20 @@ input:focus{
     background: #0098db;
     text-transform: uppercase;
     font-weight: 700;
+    /* min-width: 200.75px; */
     min-width: 200.75px;
+
 }
 .b2-list > .off1 > a:hover {
     color: #005064;
     cursor: grab;
 }
-.b4-list{
+.b5-list{
     /* width: 100%; */
     width: 100%;
     margin: 0 10px;
 }
-.b4-item{
+.b5-item{
     font-size: 13px;
     font-weight: 700;
     color: #005064;
@@ -431,24 +407,56 @@ input:focus{
     min-width: 191px;
     margin: 300px 0 ;
 }
-.b4-list > li{
+.b5-list > li{
     margin: 10px 0;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 1.3rem;
     min-height: 35px;
     max-width: 190px;
     line-height: 35px;
     background: #1d9ce5;
-    padding-left: 10px;
+    padding-left: 20px;
 }
-.b4-list > li > a{
+.b5-list > li > a{
     text-decoration: none;
     padding: 0 20px;
     color: #fff;
 }
-.b4-list > li:hover a{
+.b5-list > li:hover a{
     opacity: 1;
     color: rgb(20, 17, 12);
+}
+.list{
+    margin-top: 10px;
+}
+.list > .litem > a{
+    text-decoration: none;
+    color: black;
+}
+.list > .litem:hover > a{
+    color: #3097d1;
+}
+
+/* FOOTER */
+#footer-nav{
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    border-top: 1px solid black;
+    margin-top: 10px;
+}
+#footer-nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+#footer-nav a:hover{
+    color: #005094;
+}
+.copy{
+    font-size: large;
+    font-weight: 600;
+    margin-top: 10px;
 }
 @media only screen and (min-width: 1024px){
     .npc{
