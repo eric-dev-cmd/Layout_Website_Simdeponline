@@ -187,11 +187,14 @@ a {
     margin: 0;
 }
 .box6{
-    background-color: red;
+    background-color: white;
+    color: black;
     margin: 0;
     min-width: 100px;
     width: 100%;
-    min-height: 100px;
+    min-height: 30px;
+    margin-top: 5px;
+    margin-bottom: -10px;
 }
 .box5 h1{
     font-size: 17px;
@@ -276,8 +279,103 @@ input:focus{
     padding-left: 15px;
     display: block;
 }
-/* Ipad Pro */
+.bl-2{
+    margin: 0;
+    padding: 0;
+}
+.nt{
+    color: black;
 
+}
+
+.nt .nt-bl{
+    color: black;
+}
+.nt-fl{
+    text-
+}
+.box7{
+    background-color: white;
+    color: white;
+    margin: 0;
+    width: 100%;
+    min-height: 50px;
+}
+/* Ipad Pro */
+.bl4{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 12px 48px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: opacity .2 ease;
+    min-width: 140px;
+    min-height: 10px;
+    margin-top: 6px;
+    text-transform: capitalize;
+}
+.border{
+    
+}
+.btn-x{
+    background-color: #1d9ce5;
+}
+.btn-y{
+    background-color: white;
+    color: black;
+}
+.btn:hover{
+    /* Làm mờ đi 1 chút */
+    opacity: 0.8;
+}
+.box8{
+    background-color: white;
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+    min-height: 50px;
+}
+.prdimg{
+    margin-top: 6px;
+}
+.prd1 .br-img {
+    background-image: url('../imgs/Origin/viettel.svg');
+
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cb{
+    color: #005094;
+    font-weight: bold;
+}
+.cr{
+    color: red;
+    font-weight: bold;
+}
+.prd-bl{
+    font-style: initial;
+    font-size: 18px;
+}
+.prd-border{
+    /* box-shadow: 0 0px 1000px 1000px rgba(0, 0, 0, 0.16); */
+    border-radius: 3px;
+    border-top: none;
+    border-left: none;
+    border:1px solid #d8d8d8b7;
+    /* -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16); */
+    z-index: 9999;
+    /* box-shadow: 0 8px 6px -6px #005094; */
+    box-shadow: 2px 2px #60a5e2;
+}
 @media only screen and (min-width: 1024px){
     .npc{
         display: none;
