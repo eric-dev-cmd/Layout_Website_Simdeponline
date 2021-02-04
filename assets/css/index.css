@@ -401,6 +401,19 @@ input:focus{
     font-weight: bold;
     text-transform: capitalize;
 }
+.box9{
+    background-color: white;
+    color: white;
+    margin: 0;
+    width: 100%;
+    min-height: 50px;
+}
+.btnn{
+    background: #0098db;
+    text-transform: uppercase;
+    font-weight: 700;
+    min-width: 200.75px;
+}
 @media only screen and (min-width: 1024px){
     .npc{
         display: none;
