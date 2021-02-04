@@ -50,7 +50,7 @@ a {
     text-decoration: none;
 }
 .btn-timsim{
-    background-color: #3097d1;
+    background-color: cornflowerblue;
     color: aliceblue;
 }
 .box2{
@@ -375,6 +375,31 @@ input:focus{
     z-index: 9999;
     /* box-shadow: 0 8px 6px -6px #005094; */
     box-shadow: 2px 2px #60a5e2;
+}
+.price{
+    text-align: right;
+}
+.box9{
+    background-color: white;
+    color: black;
+    width: 100%;
+    margin-top: 2px;
+    border: 1px solid black;
+}
+.box9 h4 .vt{
+    background-image: url('../imgs/Origin/logoviettel.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 50px;
+}
+.box9 h4 a{
+
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
 }
 @media only screen and (min-width: 1024px){
     .npc{
