@@ -1,2 +1,0 @@
-# simdeponline
-Day 1
