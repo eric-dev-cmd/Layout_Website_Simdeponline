@@ -426,14 +426,21 @@ a {
     color: #005094;
 }
 .copy{
-    font-size: large;
+    font-size: medium;
     font-weight: 600;
     margin-top: 10px;
 }
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1025px){
     .npc{
         display: none;
     }
+    .b5-list{
+        padding-left: 0%;
+    }
+    .csbm{
+        display: none;
+    }
+
 }
 
 
