@@ -171,9 +171,8 @@ a {
     margin: 0;
     min-width: 100px;
     width: 100%;
-    min-height: 30px;
+    min-height: auto;
     margin-top: 5px;
-    margin-bottom: -10px;
 }
 .box5 h1{
     font-size: 17px;
@@ -259,7 +258,7 @@ a {
     color: white;
     margin: 0;
     width: 100%;
-    min-height: 50px;
+    min-height: auto;
 }
 /* Ipad Pro */
 .bl4{
@@ -430,6 +429,11 @@ a {
     font-weight: 600;
     margin-top: 10px;
 }
+.ft-ul{
+    width: 100%;
+    display: flex;
+
+}
 @media only screen and (min-width: 1025px){
     .npc{
         display: none;
@@ -442,7 +446,276 @@ a {
     }
 
 }
+@media only screen and (max-width: 991px){
+    .box3{
+        color: red;
+    }
+}
 
+
+.simdep-ul h4{
+    font-size: 16px;
+     margin: 10px 0;
+     padding: 0px;
+     padding-top: 8px;
+     text-align: left;
+     clear: both;
+
+  }
+ 
+  .simdep-ul h4 > a{
+    color: black;
+    width: 175px;
+    line-height: 21px;
+    padding-left: 33px;
+    font-weight: bold;
+    height: 23px;
+    margin-bottom: 20px;
+    background-size:     contain;                     
+    background-repeat:   no-repeat;
+    background-position: top left;
+}
+.simdep-ul h4 > a  {
+    background-image: url(../imgs/Origin/logoviettel.png);
+    background-position: left top, right top;
+    background-repeat:  no-repeat;
+    padding: 5px 30px 5px 50px;
+}
+.simdep-ul.vip h4 > a  {
+    background-image: url(../imgs/Origin/vip.gif);
+    background-position: left top, right top;
+    background-repeat:  no-repeat;
+    padding: 5px 30px 5px 50px;
+}
+.simdep-ul.mobi h4 > a  {
+    background-image: url(../imgs/Origin/mobifone.svg);
+    background-position: left top, right top;
+    background-repeat:  no-repeat;
+    padding: 5px 30px 5px 50px;
+}
+.simdep-ul{
+    display: none;
+}
+.simdep-ul .xemthem a  { 
+    padding: 5px 10px;
+}
+.xemthem {
+    float: right;
+}
+.xemthem a {
+    background: #3097d1;
+    color: #fff !important;
+    cursor: pointer;
+    padding: 6px 16px;
+    text-decoration: none !important;
+    float: right;
+    border-radius: 15px;
+    font-size: 10px !important;
+    margin: 0;
+    display: inline-block;
+    line-height: normal;
+}
+.simdep-ul.block{
+    display: block;
+    position: relative;
+}
+/* .simdep-ul h4{
+    position: absolute;
+    right: 0;
+    top: -95px;
+} */
+.simdep-ul h4 > a, .simdenho-vt h4 > a, .simdenho-vn h4 > a, .simdenho-mb h4 > a, .simvip-mb h4 > a {
+    font-size: 16px;
+    color: #333;
+}
+.simdep-ul li:nth-of-type(1) {
+    clear: both;
+}
+.sim-dep-li {
+    float: left;
+    position: relative;
+    width: 33.333%;
+}
+.simcard {
+    background: #fff;
+    height: auto;
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px #7d9dd6;
+    text-align: right;
+}
+.simcard i{
+    color: #d41515;
+    font-style: initial;
+}
+.simcard .Viettel, .simcard .Mobifone, .simcard .Vinaphone {
+
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: 11px;
+}
+.simcard .Viettel {
+    background-image: url(../imgs/Origin/viettel.svg);
+    /*background-position: -354px -4px;*/
+    background-size: auto;
+    /*border-left: 1px solid #006d6a;*/
+    /*border-bottom: 1px solid #006d6a;*/
+}
+
+.sim-display.is-active .sim-display3{
+    display: none;
+}
+.sim-display .qua-127, .sim-display .qua-703,.sim-display .qua-814, .sim-display .qua-128,.sim-display .qua-773,.sim-display .qua-835,.sim-display .qua-844{
+    right: -80px;
+    top: -7px;
+}
+.km{
+    margin-top: 10px;
+    display: inline-block;
+}
+.km span{
+    display: block;
+    font-size: 14px;
+    color: #333;
+    padding: 7px 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid #7d9dd6;
+    float: left;
+    /*font-weight: bold;*/
+    cursor: pointer;
+}
+.km span.active{
+    background: #3097d1;
+    color: #fff;
+}
+.km .add1 a{
+    color: black;
+}.km .add1:hover a{
+    color: red;
+}
+#footer-nav{
+    background: #e5e6d5;
+}
+
+@media screen and (max-width: 780px){
+    #footer-nav {
+        height: auto !important;
+        padding: 0 10px;
+    }    #footer-nav  ul a{
+        display: inline-block;
+    }
+    
+    .km-banchay{
+        margin-left: 10px;
+    }
+    .simdep-ul{
+        padding: 0 5px;
+        display: inline-block;
+
+    }
+    .simdep-ul{
+        display: none;
+    }
+    .simdep-ul h4 > a, .simdenho-vt h4 > a, .simdenho-vn h4 > a, .simdenho-mb h4 > a, .simvip-mb h4 > a{
+        font-size: 14px;
+        text-transform: capitalize;
+    }
+    .sim-dep-li{
+        width:50%;
+    }
+    .sim-dep-li span {
+        font-size: 16px !important;
+    }
+    .sim-dep-li font {
+        font-size: 14px !important;
+    }
+    .sim-display .qua-127, .sim-display .qua-703,.sim-display .qua-814, .sim-display .qua-128,.sim-display .qua-773,.sim-display .qua-835,.sim-display .qua-844{
+        right: -15px;
+        top: -6px;
+    }
+    .sim-display{
+        position: relative;
+        z-index: 1111;
+    }
+}
+@media screen and (max-width: 376px) {
+    .km-banchay span{
+        margin-right: 5px;
+        font-size: 13px;
+    }
+    .km1{
+        top: 20px; right: 10px; 
+    }
+    .km span{
+        margin: 2px;
+        display: inline-block;
+    }
+    .none{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 414px) {
+    .none{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 414px) {
+    .none{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .km1{
+        top: 20px; right: 10px; 
+    }
+    .km span{
+        margin: 2px;
+        display: inline-block;
+    }
+    .none{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .km1{
+        top: 20px; right: 10px; 
+    }
+    .km span{
+        margin: 2px;
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .km1-s{
+        top: -2px; right: 10px; 
+    }
+    .km span{
+        margin: 2px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .km1{
+        top: 20px; right: 10px; 
+    }
+    .km span{
+        margin: 2px;
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 321px) {
+    .menu-mobile li.mobile a{
+        font-size: 13px;
+    }
+    .km-banchay span{
+        padding: 5px 5px;
+    }
+}
 
 
 
