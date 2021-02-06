@@ -148,12 +148,10 @@ a {
     .pc{
         display: none;
     }
-    .npc{
-
-    }
     .npc ul > li > a{
         color: #005064;
     }
+
 
 }
 .content{
@@ -216,6 +214,24 @@ a {
     line-height: initial;
 }
 
+#bl-4 ul.huongdan {
+    padding-top: 10px;
+    display: none;
+}
+#bl-4 {
+    width: 100%;
+    background: #1d9ce5;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 2px;
+}
+#bl-4 li {
+    display: list-item;
+    color: #fff;
+    list-style-type: disc;
+    line-height: initial;
+}
+
 #txtse {
     margin: 0;
     padding: 0;
@@ -226,6 +242,10 @@ a {
     outline: blue;
 }
 #bl-2 > div {
+    padding-top: 0!important;
+    position: relative;
+}
+#bl-4 > div {
     padding-top: 0!important;
     position: relative;
 }
@@ -242,6 +262,10 @@ a {
     color: #fff;
     border-radius: 1.3rem;
     cursor: pointer;
+}
+.bl-2{
+    margin: 0;
+    padding: 0;
 }
 .bl-2{
     margin: 0;
@@ -644,6 +668,7 @@ a {
         z-index: 1111;
     }
 }
+/* Iphone x */
 @media screen and (max-width: 376px) {
     .km-banchay span{
         margin-right: 5px;
@@ -658,6 +683,43 @@ a {
     }
     .none{
         display: none !important;
+    }
+    .mobile{
+        position: fixed;
+        top: 0px;
+        right: 0;
+        left: 0;
+        z-index: 99999;
+        background-color: #3097d1 ;
+    }
+    .mt-150{
+        margin-top:65px;
+    }
+    .mobile a.nav-link{
+        color: #ffffff;
+    }
+    .bl-2{
+        position: fixed;
+        top: 0px;
+        right: 0;
+        left: 0;
+        z-index: 99999;
+        background-color:#3097d1 !important;
+    }
+    .huongdan{
+        display: none !important;
+    }
+    #scrol{
+        position: fixed;
+    top: 142px;
+    left: -29px;
+    right: 0;
+    width: 383px;
+    color: wheat;
+    background: #3097d1;
+    }
+    .btntim{
+        margin-top: 12px !important;
     }
 }
 @media screen and (max-width: 414px) {
