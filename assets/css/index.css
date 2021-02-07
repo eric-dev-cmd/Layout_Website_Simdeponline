@@ -449,6 +449,7 @@ a {
     text-align: center;
     border-top: 1px solid black;
     margin-top: 10px;
+    background: #e5e6d5;
 }
 #footer-nav a{
     text-decoration: none;
@@ -931,5 +932,38 @@ div.news a:hover{
 }
 }
 
+div.step a{
+    color: #005094;
+    text-decoration: none;
+}
+div.step:hover a{
+    color: #d41515
+}
+.fl-jd{
+    padding-left: 10px;
+}
+.bd{
+    border-color: #005094;
+}
+.fs-22{
+    font-size: 22px;
+}
 
+.disc li {
+    color: #005094;
+    background: url('/assets/imgs/Origin/check.png') no-repeat left top;
+    padding: 0 0px 1px 20px;
+    list-style: none;
+    font-size: 13px;
+}
+.btn-bl{
+    background-color:#1d9ce5;
+    border-color:#1d9ce5;
+    color:white
+}
+
+.btn-orange:hover{
+    background-color:#1d9ce5c7;
+    color:white !important
+}
 
