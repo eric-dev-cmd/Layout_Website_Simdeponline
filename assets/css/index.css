@@ -966,4 +966,61 @@ div.step:hover a{
     background-color:#1d9ce5c7;
     color:white !important
 }
+.datsim{
+    background: #057aac;
+}
+.cb1{
+    color: #057aac;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-16{
+    font-size: 16px;
+}.fs-17{
+    font-size: 17px;
+}.fs-18{
+    font-size: 18px;
+}
+span.xt > a{
+    text-decoration: none;
+}
+span.xt > a:hover{
+    color: red;
+}
+span.xt > a:hover{
+    color: rgb(238, 139, 11)
+}
 
+span.cm .cb > a{
+    text-decoration: none;
+}
+span.cm .cb > a:hover{
+    color: red;
+}
+span.cm .cb > a:hover{
+    color: rgb(238, 139, 11);
+}
+li.duoi a{
+    text-decoration: none;
+    color: #0d73adda;
+}
+li.duoi:hover a{
+    text-decoration: none;
+    color: rgb(238, 139, 11);
+    font-weight: 500;
+    font-style: italic;
+}
+ul >li.duoi{
+    padding-left: 10px;
+}
+.align-self-center{-ms-flex-item-align:center!important;align-self:center!important}
+.ctk{
+    color: #28a745;
+}
+.tksim  a.tkso{
+    text-decoration: none;
+}
+.tksim  a.tkso:hover{
+    color: #199135;
+}
