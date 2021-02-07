@@ -151,14 +151,21 @@ a {
     .npc ul > li > a{
         color: #005064;
     }
-
+    .des-tg{
+        padding: 0 10px;
+    }
+    .des-tg-dt img{
+        width: 100% !important;
+        height: auto !important;
+    }
+    ..des-tg-dt{
+        padding: 0 10px;
+        text-align: justify;
+    }
 
 }
-.content{
-    background-color: white;
-    margin: 0 5px;
-    padding: 0;
-}
+
+
 .box5{
     background-color: #3097d1;
     margin: 0;
@@ -171,6 +178,9 @@ a {
     width: 100%;
     min-height: auto;
     margin-top: 5px;
+}
+.fs-17{
+    font-size: 17px;
 }
 .box5 h1{
     font-size: 17px;
@@ -670,6 +680,9 @@ a {
 }
 /* Iphone x */
 @media screen and (max-width: 376px) {
+    .n375{
+        display: none;
+    }
     .km-banchay span{
         margin-right: 5px;
         font-size: 13px;
@@ -709,7 +722,7 @@ a {
     .huongdan{
         display: none !important;
     }
-    #scrol{
+    /* #scrol{
         position: fixed;
     top: 142px;
     left: -29px;
@@ -717,10 +730,21 @@ a {
     width: 383px;
     color: wheat;
     background: #3097d1;
-    }
+    } */
     .btntim{
         margin-top: 12px !important;
+        top: -9px !important;
     }
+    .b375{
+        margin-right: 5px;
+    }
+    .content1{
+        background-color: white;
+        margin-left: 2px;
+        padding: 0;
+        border-radius: 1.3rem;
+    }
+
 }
 @media screen and (max-width: 414px) {
     .none{
@@ -780,6 +804,132 @@ a {
 }
 
 
+/* SIM TRA GOP */
+
+.bl-f{
+    border-bottom: 1px solid #ddd;
+}
+.bl-f div.h {
+    /*height: 15px;*/
+    background: #3097d1;
+    color: #fff;
+    border-radius: 0;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #ddd;
+
+}
+.step{
+    padding: 10px;
+}
+.h{
+    color: #fff;
+    background: #3097d1;
+    font-family: Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    margin: 0px;
+    padding: 5px 13px;
+}
+.des-tg{
+    margin: 15px 0px;
+}
+.des-tg-dt{
+    font-size: 13px;
+    line-height: 17px;
+}
+.des-tg-dt > h2{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: arial !important;
+    padding-left: 0px;
+    line-height: 17px;
+}
+.des-tg-dt img{
+    margin: 10px 0px;
+}
+div.news a{
+    text-decoration: none;
+}
+div.news a:hover{
+    color: #d41515;
+}
+
+@media screen and (max-width: 575px){
+.b2-list{
+    margin-top: 10px;
+}
+.b2-list li{
+    width: 48%;
+    margin: 1%;
+    float: left;
+    border: 1px solid #3097d1;
+    text-align: center;
+    border-radius: 0.3rem;
+    background-color: #fff;
+}
+.b2-list li:hover{
+    background-color: #1d9ce5;
+}
+.b2-list li:hover a{
+    color: white !important;
+}
+.b2-list li a{
+    color: #005064!important;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.b3-list{
+    margin-top: 10px;
+}
+.b3-list li{
+    width: 48%;
+    margin: 1%;
+    float: left;
+    border: 1px solid #3097d1;
+    text-align: center;
+    border-radius: 0.3rem;
+    background-color: #fff;
+}
+.b3-list li:hover{
+    background-color: #1d9ce5;
+}
+.b3-list li:hover a{
+    color: white !important;
+}
+.b3-list li a{
+    color: #005064!important;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.b4-list{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.b4-list li{
+    width: 48%;
+    margin: 1%;
+    float: left;
+    border: 1px solid #3097d1;
+    text-align: center;
+    border-radius: 0.3rem;
+    background-color: #fff;
+}
+.b4-list li:hover{
+    background-color: #1d9ce5;
+}
+.b4-list li:hover a{
+    color: white !important;
+}
+.b4-list li a{
+    color: #005064!important;
+    font-weight: 700;
+    line-height: 32px;
+}
+}
 
 
 
