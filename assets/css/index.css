@@ -1046,3 +1046,13 @@ div.title h2 a{
 div.title h2:hover a{
 color: #0098db;
 }
+h3.ckbh{
+    text-align: left;
+
+}
+.ck2 span a{
+    text-decoration: none;
+}
+.ck2 span:hover a{
+    color: red;
+}
