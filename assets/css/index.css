@@ -145,6 +145,12 @@ a {
     color: #3097d1
 }
 @media only screen and (max-width: 780px){
+    .ctmd .box4g > .bitem{
+        width: 49% !important;
+    }
+    .ds-ct{
+        max-height: 270px;
+    }
     .pc{
         display: none;
     }
@@ -1055,4 +1061,45 @@ h3.ckbh{
 }
 .ck2 span:hover a{
     color: red;
+}
+.ds-ct {
+    border: 1px solid;
+    padding: 10px;
+    max-height: 500px;
+    overflow: scroll;
+    margin: 20px 0;
+}
+.ttdk h1{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 2px;
+    color: #1d9ce5;
+}
+.cmtd{
+    padding-bottom: 10px;
+}
+.ctmd .box4g{
+    margin: auto;
+    text-align: center;
+    
+}
+.ctmd .box4g > .bitem{
+    width: 32%;
+    display: inline-block;
+    min-height: 260px;
+    border-radius: 1.0rem;
+
+}
+div.bidata ul > li h2{
+    background: rgb(9, 79, 160);
+    border-top-right-radius: 1.0rem;
+    border-top-left-radius: 1.0rem;
+    color: #ffffff;
+}
+div.bidata ul > li{
+    line-height: 30px;
+}
+.bitem div.bidata a.btndk{
+    padding: 5px; background: rgb(69, 122, 221); border-radius: 0.6rem; outline: no; color: white;
 }
