@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="./assets/favicon/favicon-32x32.png">
-    <!-- Reset css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <!-- Boostrap -->
     <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -43,7 +41,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent1">
                 <ul class="navbar-nav mr-auto ">
                     <li class="nav-item border-right active ft" style="padding-right: 7px">
-                        <a class="nav-link" href="/">Trang Chủ <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Trang Chủ <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item border-right">
                         <a class="nav-link" href="simtragop.html">Sim Trả Góp</a>
@@ -85,9 +83,11 @@
             </div>
         </nav>
     </div>
+
     <div class="container mt-2">
         <div class="row mt-150">
-            <div class="col-12 col-sm col-md">
+            <!-- Sidebar Left -->
+            <div class="col col-sm col-md" id="sLeft">
                 <div class="box1 row">
                     <div class="card cart-custom-1 w-100">
 
@@ -279,479 +279,312 @@
 
                 </div>
             </div>
-            <div class="col-12 col-sm-7 col-md-7 content"
-                style="padding: 0px; border-radius: 1.3rem; margin-left: 5px; margin-right: 5px">
-                <!-- Search -->
-                <div class="box5 b375 ">
-                    <div class="bl-1">
-                        <h1>Sim số đẹp - uy tín nhất</h1>
-                    </div>
-                    <div id="bl-4">
-                        <div style="margin:auto; padding: 10px;" id="scrol">
-                            <input type="tel" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Nhập số cần tìm"
-                                style="color:black; text-indent: 15px; margin-top: 2px;" id="txtse" value=""
-                                required="">
-                            <button value="Tìm SIM" name="submit" type="submit" class="btntim"
-                                style="margin-top: 46px;    top: -43px; "> Tìm
-                                Sim</button>
-                            <ul class="huongdan" style="padding-left: 15px; display: block; color: white;">
-                                <li>Tìm sim có số <strong>6789</strong> bạn hãy gõ <strong>6789</strong>
-                                </li>
-                                <li>Tìm sim có đầu <strong>090 </strong>đuôi <strong>6789</strong> hãy gõ
-                                    <strong>090*6789</strong>
-                                </li>
-                                <li>Tìm sim bắt đầu bằng <strong>0914</strong> đuôi bất kỳ, hãy
-                                    gõ:&nbsp;<strong>0914*</strong>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+
+            <div class="col-12 col-sm-7 col-md-7 content content1 border"
+                style="padding: 0px; border-radius: 0.3rem; margin-right: 5px; margin-left: 5px;">
+
+                <div class="step " style="margin-top: 0px; font-size: 12px;">
+                    <a href="#">Trang chủ</a> » Tin tức
                 </div>
-                <div class="step " style="margin-top: 0px;">
-                    <a href="#">Trang chủ</a> » 
-                    Sim số đẹp 0869.933.896 Viettel, bán sim 0981.76.2347 giá rẻ  
+                <div class="step border text-center bgtt" style="margin-top: 0px; font-size: 12px;">
+                    <h3>Tin tức</h3>
                 </div>
-                <div class="container mt-2 border">
-                    <div class="row ">
-                        <div class="col-12 mt-2 border-top-0 border-left-0 border-right-0">
-                            <div class="row">
-                                <div class="col-md-7 ">
-                                    <p class="mb-2 d-inline-block">Số Sim:</p>
-                                    <h2 class="mb-2 font-weight-bold fs-22 d-inline-block ml-2 cb">0911.058.058</h2>
-                                    <p class="mb-2">
-                                        Giá bán: <span class="font-weight-bold fs-120">28,000,000₫</span>
-                                    </p>
-                                    <p class="mb-2">Mạng: <span class="font-weight-bold"><span class="cb">Vinaphone</span></span>
-                                    </p>
-                                    <p class="mb-2">Đại cát: <span class="font-weight-light font-italic"><span class="cr">Nhẫn nhịn chịu đựng, xấu cũng thành tốt</span></span>
-                                    </p>
-                                    <p class="font-weight-bold mb-0 cb bd px-3 border rounded py-1  mb-2 d-inline-block" style="border: 1px solid #005094 !important;">Sim
-                                        nhận trong ngày</p>
-                                    <p class="font-italic mb-3">Giao sim miễn phí toàn quốc</p>
 
-                                </div>
-                                <div class="col-md-5 d-flex align-items-center mt-3 mt-md-0">
-                                    <img src="./assets/imgs/Card/VinaPhone/0911058058.jpg" alt="0911058058"
-                                        class="mx-auto d-block align-middle img-fluid lazyload border border-dark">
-                                </div>
+                <div class="container ">
+                    <div class="row mt-1  border-bottom border-top">
+                        <!-- Each news -->
+                        <div class="col-12 col-md-4 mt-3 ">
+                            <div>
+                                <img src="./assets/imgs/Origin/dau-so-thue-bao-0127-doi-thanh-081.jpg" alt="new1"
+                                    class="img-fluid w-100" style=" height: auto;">
                             </div>
+
                         </div>
-                    </div>
-
-                    <div class="row border border-top border-right-0 border-left-0 boder-bottom-0 mt-2">
-                        <div class="col-12">
-                            <!-- Giam giá -->
-                            <div class="disc mb-3">
-                                <fieldset>
-                                    <legend style=" line-height: 28px; ">&nbsp; <img src="./assets/imgs/Origin/gift.png"
-                                            alt="Free" style=" width: 20px !important; " > <i style="font-size: 13px;">Gói Khuyến Mãi</i>&nbsp;</legend>
-                                </fieldset>
-                                <li>100.000/tháng, Miễn phí 1000 phút nội mạng +10 phút ngoại mạng +2GB Data (hết 2G truy cập tốc độ 128kbps)</li>
-                                <li>150.000/tháng, Miễn phí 1000 phút nội mạng +100 phút ngoại mạng + 100 tin nhắn nội mạng + 4GB Data (hết 4G truy
-                                    cập tốc độ 256kbps)</li>
+                        <div class="col-12 col-md-8 mt-3">
+                            <div class="title">
+                                <h2 class="fs-16 text-left"><strong><a href="#">Mạng Vinaphone– Đầu số 0127 đổi thành
+                                            đầu số gì?</a></strong></h2>
                             </div>
-                        </div>
-                    </div>
-
-                    <form action="#">
-                    <div class="row border mt-2 datsim">
-                            <div class="col-12 mb-3 mt-3">
-
-                                <h3 class="text-uppercase text-center font-weight-bold fs-150" style="color: white;">Đặt mua sim</h3>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" class="custom-control-input" id="male" name="male" value="1">
-                                    <label class="custom-control-label" for="male">&nbsp;Anh</label>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" class="custom-control-input" id="female" name="female" value="2">
-                                    <label class="custom-control-label" for="female">&nbsp;Chị</label>
-                                </div>
-                                
-                                <div class="form-row mt-3">
-                                    <div class="col-md-6 form-group">
-                                      <input name="name" type="text" class="form-control text-capitalize" placeholder="Họ và tên (*)" required="">
-                                    </div>
-                                    <div class="col-md-6 form-group">
-                                      <input id="input_phone" name="phone" type="tel" class="form-control" placeholder="Số điện thoại (*)" required="">
-                                    </div>
-                                </div>
-
-                                <div class="form-row mt-1">
-                                    <div class="col-md-12 form-group">
-                                      <input name="address" type="text" class="form-control" placeholder="Địa chỉ (*)" required="">
-                                    </div>
-                                </div>
-
-                                <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" class="custom-control-input" id="ship1" name="ship1" value="3">
-                                    <label class="custom-control-label" for="ship1">&nbsp;Thanh toán khi nhận sim</label>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" class="custom-control-input" id="ship2" name="ship2" value="4">
-                                    <label class="custom-control-label" for="ship2">&nbsp;Chuyển khoản ngân hàng</label>
-                                </div>
-
-                                <div class="form-group text-center mt-3">
-                                    <button type="submit" class="btn btn-bl text-uppercase font-weight-bold">Đặt sim</button>
-                                </div>
-
-                            </div>
-                    </div>
-                    </form>
-
-                    <div class="row mt-2 fs-14">
-                        <div class="col-12 col-md-12">
-                            <h2><span style="font-size: 16px;"><strong>Hướng dẫn mua sim 0981550202:</strong></span></h2>
-                            <div class="b1">
+                            <div class="desc">
                                 <p>
-                                    <strong><u class="cb1">Bước 1:</u></strong> 
-                                    <strong class="text-uppercase">&nbsp;Đặt sim</strong><br/>
-                                    <span class="fs-14">Quý khách điền đầy đủ thông tin và đặt mua, hoặc liên hệ <strong class="cr">0987.456789</strong> để được đặt hàng.</span>
-                                </p>
-                                <p>
-                                </p>
-                            </div>
-                            <div class="b2">
-                                <p>
-                                    <strong><u class="cb1">Bước 2:</u></strong> 
-                                    <strong class="text-uppercase">&nbsp;Xác nhận đơn hàng</strong><br/>
-                                    <span class="fs-14">Khi nhận được đơn hàng của quý khách, nhân viên bán hàng sẽ kiểm tra số trong kho của chúng tôi và gọi điện lại báo cho quý khách về tình trạng sim quý khách đã đặt mua.</span>
-                                </p>
-                                <p>
-                                </p>
-                            </div>
-                            <div class="b3">
-                                <p>
-                                    <strong><u class="cb1">Bước 3:</u></strong> 
-                                    <strong class="text-uppercase">&nbsp;Giao sim và đăng ký thông tin</strong><br/>
-                                    <strong>▪ Cách 1: Giao sim tận nhà miễn phí trong ngày</strong><br/>
-                                    <span class="fs-14">- Chúng tôi sẽ có giao dịch viên giao sim và đăng ký chính chủ tại nơi quý khách đang ở hiện tại.
-                                    </span>
-                                    <br/>
-                                    <span class="fs-14">- Quý khách kiểm tra đúng chính chủ, đúng số sim 0822222.715 quý khách mới phải thanh toán
+                                    <span class="fs-14">
+                                        Bạn có biết đầu số 081 của mạng nào không? đầu số 0127 đổi thành gì? Công cụ nào
+                                        hỗ trợ chuyển đổi danh bạ
+                                        11 số thành 10 số một cách nhanh nhất? Bài viết dưới đây sẽ bật mí tất cả những
+                                        điều này
                                     </span>
                                 </p>
+                            </div>
+                            <div class="time fs-12" style="color: #6c757d;">
+                                <span><i><span>05/02/2021</span> . <span>Tin tức</span></i></span>
+                            </div>
+                        </div>
+
+                        <!-- Each news -->
+
+                        <div class="col-12 col-md-4 mt-3 ">
+                            <div>
+                                <img src="./assets/imgs/Origin/dau-so-thue-bao-0126-doi-thanh-076.jpg" alt="new1"
+                                    class="img-fluid w-100" style=" height: auto;">
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-8 mt-3">
+                            <div class="title">
+                                <h2 class="fs-16 text-left"><strong><a href="#">Mạng MobiFone – Đầu số 0126 đổi thành
+                                            đầu số gì?</a></strong></h2>
+                            </div>
+                            <div class="desc">
                                 <p>
-                                    <strong>▪ Cách 2: Nhận sim tại cửa hàng VinaPhone</strong><br/>
-                                    <span class="fs-14">- Giao dịch viên của chúng tôi sẽ cùng quý khách ra điểm giao dịch VinaPhone gần nhất để giao dịch.</span>
-                                    <br/>
-                                    <span class="fs-14">- Quý khách kiểm tra đúng chính chủ, đúng số sim 0822222.715 quý khách mới phải thanh toán.</span>
+                                    <span class="fs-14">
+                                        Đầu số 0126 của mạng nào? đầu số 0126 đổi thành gì bạn đã biết chưa? Hãy cùng
+                                        sim số đẹp kho sim tìm hiểu những thông
+                                        tin này trong bài viết dưới đây.
+                                    </span>
                                 </p>
-                                <p></p>
                             </div>
-                            <div class="thutuc fs-14">
-                                <strong class="text-uppercase cb1">Thủ tục đăng ký sim</strong>
-                                <p></p>
-                                <span><strong>1.</strong>&nbsp;Bản gốc CMND (cấp dưới 15 năm) hoặc Căn cước công dân (còn thời hạn) hoặc Hộ chiếu (còn thời hạn) của chủ thuê bao.</span>
-                                <p></p>
-                                <span><strong>2.</strong>&nbsp;Ảnh chân dung (ảnh người thật) của chủ thuê bao tại thời điểm giao dịch.</span>
-                                <p></p>
-                                <span class="xt">Xem thêm hướng dẫn đăng ký thông tin <a href="#" class="fs-14"><strong>tại đây</strong></a></span><br/><p></p>
-                                <span>Soạn <strong class="cb">TTTB</strong> gửi <strong class="cr">1414</strong> để kiểm tra đúng thông tin chính chủ.</span><br/><p></p>
-                                <span class="cm"><strong class="cr">Kính chúc quý khách gặp nhiều may mắn khi sở hữu số thuê bao <span class="cb "><a href="#" class="fs-14">0822222715</a></span>
-                                </strong></span>
-                            </div>
-                            <div class="simlq">
-                                <h3 class="mt-1 font-weight-bold w-100 fs-18">Tìm sim liên quan 0822222.715</h3>
-                                <ul class="list-duoi">
-                                    <li class="duoi"><a href="#">Sim đuôi 15, tìm sim số đuôi *15</a></li>
-                                    <li class="duoi"><a href="#">Sim đuôi 515, tìm sim số đuôi *515</a></li>
-                                    <li class="duoi"><a href="#">Sim đuôi 1515, tìm sim số đuôi *1515</a></li>
-                                    <li class="duoi"><a href="#">Sim đuôi 41515, tìm sim số đuôi *41515</a></li>
-                                    <li class="duoi"><a href="#">Sim đuôi 441515, tìm sim số đuôi *441515</a></li>
-                                </ul>
-                                
-                            </div>
-                        </div>
-                        
-                    </div>
-                    
-                    <div class="row border border-light mt-1 text-center">
-                        <h2><strong><span class="fs-16 ">MỜI BẠN THAM KHẢO SỐ SIM GẦN GIỐNG CÒN TRONG KHO</span></strong></h2>
-                    </div>
-                    <div class="row mt-3 mb-3 px-2">
-
-
-                        <div class="col-6 col-md-4 border rounded">
-                            <div class="tksim">
-                                <div class="row">
-                                    <div class="col-md-4 col-4 mt-1">
-                                        <a href="#" title="" class="">
-                                            <img src="./assets/imgs/Origin/viettel.svg" class="align-self-center mr-2 mt-1" width="50">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-8 col-8  text-left mt-1">
-                                        <strong ><a href="#" class="ctk fs-16 tkso" >0987.000.111</a></strong>
-                                        <p><strong class="fs-14">1,500,000₫</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-4 border rounded">
-                            <div class="tksim">
-                                <div class="row">
-                                    <div class="col-md-4 col-4 mt-1">
-                                        <a href="#" title="" class="">
-                                            <img src="./assets/imgs/Origin/viettel.svg" class="align-self-center mr-2 mt-1" width="50">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-8 col-8  text-left mt-1">
-                                        <strong ><a href="#" class="ctk fs-16 tkso" >0987.000.111</a></strong>
-                                        <p><strong class="fs-14">1,500,000₫</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-4 border rounded">
-                            <div class="tksim">
-                                <div class="row">
-                                    <div class="col-md-4 col-4 mt-1">
-                                        <a href="#" title="" class="">
-                                            <img src="./assets/imgs/Origin/viettel.svg" class="align-self-center mr-2 mt-1" width="50">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-8 col-8  text-left mt-1">
-                                        <strong ><a href="#" class="ctk fs-16 tkso" >0987.000.111</a></strong>
-                                        <p><strong class="fs-14">1,500,000₫</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-4 border rounded">
-                            <div class="tksim">
-                                <div class="row">
-                                    <div class="col-md-4 col-4 mt-1">
-                                        <a href="#" title="" class="">
-                                            <img src="./assets/imgs/Origin/viettel.svg" class="align-self-center mr-2 mt-1" width="50">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-8 col-8  text-left mt-1">
-                                        <strong ><a href="#" class="ctk fs-16 tkso" >0987.000.111</a></strong>
-                                        <p><strong class="fs-14">1,500,000₫</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-4 border rounded">
-                            <div class="tksim">
-                                <div class="row">
-                                    <div class="col-md-4 col-4 mt-1">
-                                        <a href="#" title="" class="">
-                                            <img src="./assets/imgs/Origin/viettel.svg" class="align-self-center mr-2 mt-1" width="50">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-8 col-8  text-left mt-1">
-                                        <strong ><a href="#" class="ctk fs-16 tkso" >0987.000.111</a></strong>
-                                        <p><strong class="fs-14">1,500,000₫</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-4 border rounded">
-                            <div class="tksim">
-                                <div class="row">
-                                    <div class="col-md-4 col-4 mt-1">
-                                        <a href="#" title="" class="">
-                                            <img src="./assets/imgs/Origin/viettel.svg" class="align-self-center mr-2 mt-1" width="50">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-8 col-8  text-left mt-1">
-                                        <strong ><a href="#" class="ctk fs-16 tkso" >0987.000.111</a></strong>
-                                        <p><strong class="fs-14">1,500,000₫</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-4 border rounded">
-                            <div class="tksim">
-                                <div class="row">
-                                    <div class="col-md-4 col-4 mt-1">
-                                        <a href="#" title="" class="">
-                                            <img src="./assets/imgs/Origin/viettel.svg" class="align-self-center mr-2 mt-1" width="50">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-8 col-8  text-left mt-1">
-                                        <strong ><a href="#" class="ctk fs-16 tkso" >0987.000.111</a></strong>
-                                        <p><strong class="fs-14">1,500,000₫</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-4 border rounded">
-                            <div class="tksim">
-                                <div class="row">
-                                    <div class="col-md-4 col-4 mt-1">
-                                        <a href="#" title="" class="">
-                                            <img src="./assets/imgs/Origin/viettel.svg" class="align-self-center mr-2 mt-1" width="50">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-8 col-8  text-left mt-1">
-                                        <strong ><a href="#" class="ctk fs-16 tkso" >0987.000.111</a></strong>
-                                        <p><strong class="fs-14">1,500,000₫</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-4 border rounded">
-                            <div class="tksim">
-                                <div class="row">
-                                    <div class="col-md-4 col-4 mt-1">
-                                        <a href="#" title="" class="">
-                                            <img src="./assets/imgs/Origin/viettel.svg" class="align-self-center mr-2 mt-1" width="50">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-8 col-8  text-left mt-1">
-                                        <strong ><a href="#" class="ctk fs-16 tkso" >0987.000.111</a></strong>
-                                        <p><strong class="fs-14">1,500,000₫</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-4 border rounded">
-                            <div class="tksim">
-                                <div class="row">
-                                    <div class="col-md-4 col-4 mt-1">
-                                        <a href="#" title="" class="">
-                                            <img src="./assets/imgs/Origin/viettel.svg" class="align-self-center mr-2 mt-1" width="50">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-8 col-8  text-left mt-1">
-                                        <strong ><a href="#" class="ctk fs-16 tkso" >0987.000.111</a></strong>
-                                        <p><strong class="fs-14">1,500,000₫</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-4 border rounded">
-                            <div class="tksim">
-                                <div class="row">
-                                    <div class="col-md-4 col-4 mt-1">
-                                        <a href="#" title="" class="">
-                                            <img src="./assets/imgs/Origin/viettel.svg" class="align-self-center mr-2 mt-1" width="50">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-8 col-8  text-left mt-1">
-                                        <strong ><a href="#" class="ctk fs-16 tkso" >0987.000.111</a></strong>
-                                        <p><strong class="fs-14">1,500,000₫</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-4 border rounded">
-                            <div class="tksim">
-                                <div class="row">
-                                    <div class="col-md-4 col-4 mt-1">
-                                        <a href="#" title="" class="">
-                                            <img src="./assets/imgs/Origin/viettel.svg" class="align-self-center mr-2 mt-1" width="50">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-8 col-8  text-left mt-1">
-                                        <strong ><a href="#" class="ctk fs-16 tkso" >0987.000.111</a></strong>
-                                        <p><strong class="fs-14">1,500,000₫</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-4 border rounded">
-                            <div class="tksim">
-                                <div class="row">
-                                    <div class="col-md-4 col-4 mt-1">
-                                        <a href="#" title="" class="">
-                                            <img src="./assets/imgs/Origin/viettel.svg" class="align-self-center mr-2 mt-1" width="50">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-8 col-8  text-left mt-1">
-                                        <strong ><a href="#" class="ctk fs-16 tkso" >0987.000.111</a></strong>
-                                        <p><strong class="fs-14">1,500,000₫</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-4 border rounded">
-                            <div class="tksim">
-                                <div class="row">
-                                    <div class="col-md-4 col-4 mt-1">
-                                        <a href="#" title="" class="">
-                                            <img src="./assets/imgs/Origin/viettel.svg" class="align-self-center mr-2 mt-1" width="50">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-8 col-8  text-left mt-1">
-                                        <strong ><a href="#" class="ctk fs-16 tkso" >0987.000.111</a></strong>
-                                        <p><strong class="fs-14">1,500,000₫</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-4 border rounded">
-                            <div class="tksim">
-                                <div class="row">
-                                    <div class="col-md-4 col-4 mt-1">
-                                        <a href="#" title="" class="">
-                                            <img src="./assets/imgs/Origin/viettel.svg" class="align-self-center mr-2 mt-1" width="50">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-8 col-8  text-left mt-1">
-                                        <strong ><a href="#" class="ctk fs-16 tkso" >0987.000.111</a></strong>
-                                        <p><strong class="fs-14">1,500,000₫</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-4 border rounded">
-                            <div class="tksim">
-                                <div class="row">
-                                    <div class="col-md-4 col-4 mt-1">
-                                        <a href="#" title="" class="">
-                                            <img src="./assets/imgs/Origin/viettel.svg" class="align-self-center mr-2 mt-1" width="50">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-8 col-8  text-left mt-1">
-                                        <strong ><a href="#" class="ctk fs-16 tkso" >0987.000.111</a></strong>
-                                        <p><strong class="fs-14">1,500,000₫</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-4 border rounded">
-                            <div class="tksim">
-                                <div class="row">
-                                    <div class="col-md-4 col-4 mt-1">
-                                        <a href="#" title="" class="">
-                                            <img src="./assets/imgs/Origin/viettel.svg" class="align-self-center mr-2 mt-1" width="50">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-8 col-8  text-left mt-1">
-                                        <strong ><a href="#" class="ctk fs-16 tkso" >0987.000.111</a></strong>
-                                        <p><strong class="fs-14">1,500,000₫</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-4 border rounded">
-                            <div class="tksim">
-                                <div class="row">
-                                    <div class="col-md-4 col-4 mt-1">
-                                        <a href="#" title="" class="">
-                                            <img src="./assets/imgs/Origin/viettel.svg" class="align-self-center mr-2 mt-1" width="50">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-8 col-8  text-left mt-1">
-                                        <strong ><a href="#" class="ctk fs-16 tkso" >0987.000.111</a></strong>
-                                        <p><strong class="fs-14">1,500,000₫</strong></p>
-                                    </div>
-                                </div>
+                            <div class="time fs-12" style="color: #6c757d;">
+                                <span><i><span>05/02/2021</span> . <span>Tin tức</span></i></span>
                             </div>
                         </div>
 
-                       
-                        
+                        <!-- Each news -->
+
+                        <div class="col-12 col-md-4 mt-3 ">
+                            <div>
+                                <img src="./assets/imgs/Card/VinaPhone/News/cac-ung-dung-nhu-my-viettel-my-mobifone-my-vnpt-giup-chuyen-doi-danh-ba-de-dang.jpg"
+                                    alt="new1" class="img-fluid w-100" style=" height: auto;">
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-8 mt-3">
+                            <div class="title">
+                                <h2 class="fs-16 text-left"><strong><a href="#">Mạng Vinaphone – Đầu số 0125 đổi thành
+                                            đầu số gì?</a></strong></h2>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="fs-14">
+                                        Số thuê bao 085 của mạng nào? đầu số 0125 đổi thành gì? Đây là một trong rất
+                                        nhiều những câu hỏi khi có quyết định
+                                        chuyển đổi từ sim 11 số sang sim 10 số.
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="time fs-12" style="color: #6c757d;">
+                                <span><i><span>04/02/2021</span> . <span>Tin tức</span></i></span>
+                            </div>
+                        </div>
+
+                        <!-- Each news -->
+
+                        <div class="col-12 col-md-4 mt-3 ">
+                            <div>
+                                <img src="./assets/imgs/Card/VinaPhone/News/nhac-cho-mobi-phone-khosim.com3-min.jpg"
+                                    alt="new1" class="img-fluid w-100" style=" height: auto;">
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-8 mt-3">
+                            <div class="title">
+                                <h2 class="fs-16 text-left"><strong><a href="#">Lưu ý ngay những điểm sau khi đăng ký nhạc chờ Mobi phone</a></strong></h2>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="fs-14">
+                                        Nhà mạng Mobifone luôn tự hào trong việc thấu hiểu khách hàng. Dịch vụ nhạc chờ Mobi phone nhằm mang đến cho khách hàng thư giãn hơn khi kết nối cuộc gọi.
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="time fs-12" style="color: #6c757d;">
+                                <span><i><span>04/02/2021</span> . <span>Tin tức</span></i></span>
+                            </div>
+                        </div>
+
+                        <!-- Each news -->
+
+                        <div class="col-12 col-md-4 mt-3 ">
+                            <div>
+                                <img src="./assets/imgs/Card/VinaPhone/News/scb-thuoc-top-5-ngan-hang-so-huu-tong-dai-lon-nhat-thi-truong.jpg"
+                                    alt="new1" class="img-fluid w-100" style=" height: auto;">
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-8 mt-3">
+                            <div class="title">
+                                <h2 class="fs-16 text-left"><strong><a href="#">Cập nhật số điện thoại tổng đài ngân hàng SCB mới nhất 2021</a></strong></h2>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="fs-14">
+                                        Số điện thoại ngân hàng SCB 1900 6538 và 1800 545438 phục vụ mọi đối tượng khách hàng trên toàn quốc.SCB còn xây dựng hệ thống hotline cho khách hàng quốc tế.
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="time fs-12" style="color: #6c757d;">
+                                <span><i><span>04/02/2021</span> . <span>Tin tức</span></i></span>
+                            </div>
+                        </div>
+
+                        <!-- Each news -->
+
+                        <div class="col-12 col-md-4 mt-3 ">
+                            <div>
+                                <img src="./assets/imgs/Card/VinaPhone/News/Dau-so-0163-doi-thanh-033.jpg"
+                                    alt="new1" class="img-fluid w-100" style=" height: auto;">
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-8 mt-3">
+                            <div class="title">
+                                <h2 class="fs-16 text-left"><strong><a href="#">Mạng Viettel - Đầu số 0163 đổi thành đầu số gì?</a></strong></h2>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="fs-14">
+                                        Đầu số 0163 của Viettel là đầu số được rất nhiều người dùng sử dụng. Sự ra đời của đầu số này đã từng giúp nhà mạng Viettel dễ dàng hơn trong việc đáp ứng nhu cầu quá lớn của khách hàng.
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="time fs-12" style="color: #6c757d;">
+                                <span><i><span>04/02/2021</span> . <span>Tin tức</span></i></span>
+                            </div>
+                        </div>
+
+                        <!-- Each news -->
+
+                        <div class="col-12 col-md-4 mt-3 ">
+                            <div>
+                                <img src="./assets/imgs/Card/VinaPhone/News/he-thong-chi-nhanh-va-phong-giao-dich-cua-eximbank-tren-toan-quoc-hien-la-207_2.jpg"
+                                    alt="new1" class="img-fluid w-100" style=" height: auto;">
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-8 mt-3">
+                            <div class="title">
+                                <h2 class="fs-16 text-left"><strong><a href="#">Hotline, số điện thoại tổng đài ngân hàng Eximbank hỗ trợ 24/7</a></strong></h2>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="fs-14">
+                                        Số điện thoại ngân hàng Eximbank 1800 1199 miễn phí 100%. Đồng thời, tổng đài này còn hoạt động liên tục 24/7 cung cấp thông tin về giá vàng, giải đáp những thắc mắc thường gặp.
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="time fs-12" style="color: #6c757d;">
+                                <span><i><span>03/02/2021</span> . <span>Tin tức</span></i></span>
+                            </div>
+                        </div>
+
+                        <!-- Each news -->
+
+                        <div class="col-12 col-md-4 mt-3 ">
+                            <div>
+                                <img src="./assets/imgs/Card/VinaPhone/News/Khach-hang-su-dung-thue-bao-di-dong-11-so-can-chuyen-sang-thue-bao-10-so-theo-quy-dinh.jpg"
+                                    alt="new1" class="img-fluid w-100" style=" height: auto;">
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-8 mt-3">
+                            <div class="title">
+                                <h2 class="fs-16 text-left"><strong><a href="#">Đầu số 0162 của Viettel chuyển đổi thành đầu số gì?</a></strong></h2>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="fs-14">
+                                        Đầu số Viettel 0162 đổi thành đầu số gì? Cách chuyển đổi các số thuê bao di động 11 số sang đầu số mới như thế nào? Nếu bạn quan tâm vấn đề này hãy tham khảo ngay bài viết dưới đây nhé.
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="time fs-12" style="color: #6c757d;">
+                                <span><i><span>04/02/2021</span> . <span>Tin tức</span></i></span>
+                            </div>
+                        </div>
+
+                        <!-- Each news -->
+
+                        <div class="col-12 col-md-4 mt-3 ">
+                            <div>
+                                <img src="./assets/imgs/Card/VinaPhone/News/goi-cuoc-Big70-Vinaphone-Khosim.com2.jpg"
+                                    alt="new1" class="img-fluid w-100" style=" height: auto;">
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-8 mt-3">
+                            <div class="title">
+                                <h2 class="fs-16 text-left"><strong><a href="#">Đăng ký Big70 Vinaphone - Xem phim miễn phí</a></strong></h2>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="fs-14">
+                                        Đăng ký gói cước Big70 Vinaphone nhận ngay dung lượng 4G tốc độ cao, ưu đãi xem phim miễn phí, dung lượng khủng, gấp đôi data lướt web, Facebook
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="time fs-12" style="color: #6c757d;">
+                                <span><i><span>02/02/2021</span> . <span>Tin tức</span></i></span>
+                            </div>
+                        </div>
+
+                        <!-- Each news -->
+
+                        <div class="col-12 col-md-4 mt-3 ">
+                            <div>
+                                <img src="./assets/imgs/Card/VinaPhone/News/goi-C90-mobifone-Khosim.jpg"
+                                    alt="new1" class="img-fluid w-100" style=" height: auto;">
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-8 mt-3">
+                            <div class="title">
+                                <h2 class="fs-16 text-left"><strong><a href="#">ĐK Gói C90 Mobifone - Có Ngay 60GB Miễn Phí Tốc Độ Cao</a></strong></h2>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="fs-14">
+                                        Hiện gói C90 Mobifone được đánh giá là một trong những gói cước có dung lượng data khủng nhất mà Mobifone mang đến cho khách hàng của mình.
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="time fs-12" style="color: #6c757d;">
+                                <span><i><span>04/02/2021</span> . <span>Tin tức</span></i></span>
+                            </div>
+                        </div>
+                        <!-- Each news -->
+
+                        <div class="col-12 col-md-4 mt-3 ">
+                            <div>
+                                <img src="./assets/imgs/Card/VinaPhone/News/nhac-cho-mobi-phone-khosim.com2-min.jpg"
+                                    alt="new1" class="img-fluid w-100" style=" height: auto;">
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-8 mt-3">
+                            <div class="title">
+                                <h2 class="fs-16 text-left"><strong><a href="#">Liên Hệ Tổng Đài Chăm Sóc Khách Hàng Mobifone Miễn Phí</a></strong></h2>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="fs-14">
+                                        Hãy gỡ rối các vấn đề mà bạn đang gặp phải khi sử dụng dịch vụ viễn thông bằng cách liên hệ đến Tổng đài chăm sóc khách hàng Mobifone.
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="time fs-12" style="color: #6c757d;">
+                                <span><i><span>01/02/2021</span> . <span>Tin tức</span></i></span>
+                            </div>
+                        </div>
+
+
+
+
+
                     </div>
-                  
-                </div>   
+                </div>
 
             </div>
 
-
+            <!-- Sidebar Right -->
             <div class="col-12 col-sm col-md">
                 <div class="box1 row">
                     <div class="card cart-custom-1 w-100">
@@ -900,6 +733,8 @@
             </div>
         </div>
     </div>
+
+    <!-- FOOTER -->
     <div id="footer-nav" style="background: #e5e6d5;text-align: center; height: 31px; line-height: 31px;">
         <a href="#" rel="nofollow">Tìm kiếm</a> &nbsp;&nbsp;| &nbsp;&nbsp;
         <a href="#" rel="nofollow">Giới thiệu</a>&nbsp;&nbsp;| &nbsp;&nbsp;

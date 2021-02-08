@@ -1024,3 +1024,25 @@ ul >li.duoi{
 .tksim  a.tkso:hover{
     color: #199135;
 }
+.bgtt{
+    background: #3097d1;
+    color: white;
+}
+.bdnews{
+    border: 1px solid #3097d1;
+
+}
+.fs-13{
+    font-size: 13px;
+}
+.fs-12{
+    font-size: 12px;
+}
+div.title h2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+div.title h2:hover a{
+color: #0098db;
+}
