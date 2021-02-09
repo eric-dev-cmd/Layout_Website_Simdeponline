@@ -687,86 +687,7 @@ a {
     }
 
 }
-/* Iphone x */
-@media screen and (max-width: 376px) {
-    /* body{
-        position: relative;
-    }
 
-    .long{
-        position: absolute;
-        top: -1314px;
-    } */
-    .n375{
-        display: none;
-    }
-    .km-banchay span{
-        margin-right: 5px;
-        font-size: 13px;
-    }
-    .km1{
-        top: 20px; right: 10px; 
-    }
-    .km span{
-        margin: 2px;
-        display: inline-block;
-    }
-
-
-    .mobile{
-        position: fixed;
-        top: 0px;
-        right: 0;
-        left: 0;
-        z-index: 99999;
-        background-color: #3097d1 ;
-    }
-    .mt-150{
-        margin-top:65px;
-    }
-    .mobile a.nav-link{
-        color: #ffffff;
-    }
-    .bl-2{
-        position: fixed;
-        top: 0px;
-        right: 0;
-        left: 0;
-        z-index: 99999;
-        background-color:#3097d1 !important;
-    }
-    .huongdan{
-        display: none !important;
-    }
-    /* #scrol{
-        position: fixed;
-    top: 142px;
-    left: -29px;
-    right: 0;
-    width: 383px;
-    color: wheat;
-    background: #3097d1;
-    } */
-    .btntim{
-        margin-top: 12px !important;
-    }
-    .b375{
-        /* margin-right: 5px; */
-    }
-    .content{
-        background-color: white;
-        padding: 0;
-        border-radius: 1.3rem;
-    }
-
-}
-@media screen and (max-width: 414px) {
-
-
-}
-@media screen and (max-width: 414px) {
-
-}
 .ctt{
     color: #0098db;
 }
@@ -784,7 +705,10 @@ a {
 
 }
 /* =========================================================== */
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (max-width: 991px) {
+    body{
+        font-size: 15px;
+    }
     .htkh{
         display: none !important;
     }
@@ -810,7 +734,7 @@ a {
         top: 0px;
         left: 0;
         right: 0;
-        width: 94%;
+        width: 100%;
         z-index: 111111111;
     }
     /* .codinh1{
@@ -957,6 +881,9 @@ a {
         left: 0;
         right: 0;
     }
+    #txtse{
+        text-indent: 10px;
+    }
     .b2-list li{
         width: 48%;
         margin: 1%;
@@ -1036,6 +963,48 @@ a {
     
 }
 /* Iphone 6 */
+@media screen and (max-width: 414px){
+    #footer-nav{
+        margin-top: 179px !important;
+    }
+    .gr{
+        margin-top: 230px;
+    }
+    .codinh{
+        width: 100%;
+    }
+    .zzz{
+        border-top: 1 px solid black;
+        z-index: 999;
+        position: absolute;
+        top: -180px;
+        left: 0;
+        right: 0;
+    }
+
+} 
+/* =========================================================== */
+@media screen and (max-width: 375px){
+    div.ftt{
+        position: relative;
+        top: -425px;
+    }
+    div.ftt1{
+        position: relative;
+        top: -405px;
+    }
+   .zzz{
+       position: relative;
+       top: -250px;
+   }
+   .#footer-nav{
+    margin-top: -248px !important;
+    }
+
+}
+
+
+/* =========================================================== */
 
 @media screen and (max-width: 1023px) {
     .km1{
