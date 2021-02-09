@@ -1091,15 +1091,40 @@ h3.ckbh{
     border-radius: 1.0rem;
 
 }
+div.bitem{
+    box-shadow: 25px 28px 100px 15px rgba(28, 53, 197, 0.52) inset;
+}
 div.bidata ul > li h2{
     background: rgb(9, 79, 160);
     border-top-right-radius: 1.0rem;
     border-top-left-radius: 1.0rem;
     color: #ffffff;
+    padding: 5px 0;
 }
 div.bidata ul > li{
     line-height: 30px;
 }
-.bitem div.bidata a.btndk{
-    padding: 5px; background: rgb(69, 122, 221); border-radius: 0.6rem; outline: no; color: white;
+button.btndk{
+    background: rgb(14, 84, 165);
+    margin-bottom: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0.8rem;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: opacity .2 ease;
+}
+.btnbg{
+    background-color: #33a7f4;
+    box-shadow: 2px 2px #60a5e2;
+
+}
+.btndk:hover{
+    color: rgb(211, 181, 50);
+}
+.mg-10{
+    margin-top: 10px;
 }
