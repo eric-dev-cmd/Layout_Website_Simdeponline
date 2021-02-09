@@ -692,8 +692,11 @@ a {
     color: #0098db;
 }
 @media screen and (min-width: 992px){
+
+
+
     .n992{
-        display: none;
+        display: none !important;
     }
     .l-n > ul{
         display: none;
@@ -704,8 +707,62 @@ a {
     }
 
 }
+@media screen and (min-width: 768){
+    #sim-tt > div{
+        position: relative;
+        top: 888px !important;
+    }
+}
+@media screen and (min-width: 769px) and (max-width:992px) {
+
+
+
+    .stm{
+        position: relative;
+    }
+    .gt{
+        position: relative;    }
+    .ssd{
+        position: relative;
+    }
+}
 /* =========================================================== */
 @media screen and (max-width: 991px) {
+
+    .bnone{
+        display: none !important;
+    }
+    .n9923{
+        margin-top: 102px !important;
+    }
+    .z-tt{
+        top: 1880px !important;
+    }
+    .maintt{
+        margin-top: -48px;
+    }
+    .maintt1{
+        margin-top: -108px;
+    }
+    .r1{
+        margin-top: 10px;
+    }
+    .n9921{
+        display: none !important;
+    }
+    div.n9922{
+        display: none !important;
+    }
+    #sim-tt{
+        position: relative;
+    top: 1060px;
+    }
+    .nav-mb{
+        margin-bottom: 45px;
+    }
+    .stgn{
+        display: none;
+    }
     body{
         font-size: 15px;
     }
@@ -962,22 +1019,49 @@ a {
     }
     
 }
+@media screen and (max-width: 768px){
+    .n768{
+        top: 200px;
+    }
+
+}
 /* Iphone 6 */
 @media screen and (max-width: 414px){
+
+    .z-tt1{
+        top: 4880px !important;
+}
+    #right{
+        top: 20px;
+    }
+    #main{
+        top: -1280px; 
+        padding: 0 10px !important;
+
+    }
+    #sim-tt{
+        top: 1290px  !important;
+
+    }
     #footer-nav{
         margin-top: 179px !important;
     }
     .gr{
-        margin-top: 230px;
+        margin-top: 0px;
     }
     .codinh{
         width: 100%;
+    }
+    .zz{
+        top: 2780px;
+        left: 0;
+        right: 0;
     }
     .zzz{
         border-top: 1 px solid black;
         z-index: 999;
         position: absolute;
-        top: -180px;
+        top: 15px;
         left: 0;
         right: 0;
     }
@@ -985,6 +1069,37 @@ a {
 } 
 /* =========================================================== */
 @media screen and (max-width: 375px){
+    .ftt1{
+        top: -360px !important;
+    }
+    .r2{
+        top: 7px !important;
+    }
+    .z-tt2{
+        top: 4775px !important;
+    }
+    .r1{
+        top: 52px !important;
+    }
+    .zzz375{
+        top: -1px !important;
+    }
+    .z375{
+        top: 2800px;
+    }
+    #right{
+        top: 30px;
+    }
+    #main{
+        top: -1260px; 
+
+    }
+    #sim-tt{
+        top: 1280px;
+    }
+    #footer-nav{
+        margin-top: 439px !important;
+    }
     div.ftt{
         position: relative;
         top: -425px;
@@ -1024,6 +1139,9 @@ a {
     }
 }
 @media screen and (min-width: 1024px) {
+    .n1{
+        display: none !important;
+    }
     .km1{
         top: 20px; right: 10px; 
     }

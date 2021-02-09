@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/png" href="./assets/favicon/favicon-32x32.png">
+  <!-- Reset css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <!-- Boostrap -->
   <link rel="stylesheet" href="./assets/css/index.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -28,20 +30,20 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row banner">
+  <div class="container nban">
+    <div class="row banner n992">
       <a href="#">
         <img src="./assets/imgs/Origin/banner.gif" alt="Banner" class="img-fluid">
       </a>
     </div>
   </div>
   <!-- > 780px -->
-  <div class="container pc" >
-    <nav class="row navbar navbar-expand-lg navbar-expand-md menu">
+  <div class="container none" >
+    <nav class="row navbar navbar-expand-lg navbar-expand-md navbar-expand-lg menu">
       <div class="collapse navbar-collapse" id="navbarSupportedContent1">
         <ul class="navbar-nav mr-auto ">
           <li class="nav-item border-right active ft" style="padding-right: 7px">
-            <a class="nav-link" href="index.html">Trang Chủ <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/">Trang Chủ <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item border-right">
             <a class="nav-link" href="simtragop.html">Sim Trả Góp</a>
@@ -65,29 +67,20 @@
       </div>
     </nav>
   </div>
-  <!-- < 780px -->
-  <div class="container npc " >
-    <nav class="row navbar navbar-expand-md navbar-expand-sm navbar-expand-xs navbar-expand menunpc mobile" >
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto ">
-          <li class="nav-item border-right border-left active ft" style="padding-right: 7px">
-            <a class="nav-link" href="/">Trang Chủ <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item border-right">
-            <a class="nav-link" href="#" style="color: red;">Tìm sim năm sinh</a>
-          </li>
-          <li class="nav-item border-right">
-            <a class="nav-link" href="#">Tìm sim số đẹp</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+  <div class="container n992 codinh1 nav-mb" style="color: black;">
+    <div class="nav">
+      <ul class="mr-auto mobile">
+        <li class="mb-i"><a href="index.html" class="ctt"><strong>Trang chủ</strong></a></li>
+        <li class="mb-i"><a href="index.html" class="cr"><img src="/assets/imgs/Gif/hot.gif"><strong>Tìm Sim Năm Sinh</strong></a></li>
+        <li class="mb-i"><a href="#simsodep" class="ctt"><strong>Tìm SIM SỐ ĐẸP</strong></a></li>
+      </ul>
+    </div>
+    
   </div>
-
-  <div class="container mt-2">
+  <!-- < 780px -->
+  <div class="container mt-2 abc" id="">
     <div class="row mt-150">
-      <!-- Sidebar Left -->
-    <div class="col col-sm col-md" id="sLeft">
+      <div class="col-12 col-sm-12 col-md-12 col-lg zz" id="sim-tt">
         <div class="box1 row">
           <div class="card cart-custom-1 w-100">
 
@@ -274,226 +267,258 @@
           </ul>
 
         </div>
-    </div>
+      </div>
 
-    <div class="col-12 col-sm-7 col-md-7 content content1" style="padding: 0px; border-radius: 0.3rem; margin-right: 5px; margin-left: 5px;">
-      <div class="box5 b375">
-        <div class="bl-1">
-          <h1>Sim số đẹp - uy tín nhất</h1>
-        </div>
-        <div id="bl-4">
-          <div style="margin:auto; padding: 10px;" id="scrol">
-            <input type="tel" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Nhập số cần tìm"
-              style="color:black; text-indent: 15px; margin-top: 2px;" id="txtse" value="" required="">
-            <button value="Tìm SIM" name="submit" type="submit" class="btntim" style="margin-top: 46px;    top: -43px; "> Tìm
-              Sim</button>
-            <ul class="huongdan" style="padding-left: 15px; display: block; color: white;">
-              <li>Tìm sim có số <strong>6789</strong> bạn hãy gõ <strong>6789</strong>
-              </li>
-              <li>Tìm sim có đầu <strong>090 </strong>đuôi <strong>6789</strong> hãy gõ <strong>090*6789</strong>
-              </li>
-              <li>Tìm sim bắt đầu bằng <strong>0914</strong> đuôi bất kỳ, hãy gõ:&nbsp;<strong>0914*</strong>
-              </li>
-            </ul>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-7 content long z" id="main" style="padding: 0px; ">
+        <!--  -->
+        <div class="ll codinh">
+          <div class="box5 box5a">
+          <div class="bl-1 none">
+            <h1 >Sim số đẹp - uy tín nhất</h1>
           </div>
-        </div>
-      </div>
-      <!-- BOX 5 -->
-      <div class="box6">
-        <div id="bl-2 ">
-          <div class="bl-3">
-            <div class="nt" style="margin-top: 17px; border-bottom: 1px solid rgb(194, 187, 187)">
-              <p><span class=" text-weight-bold"><b>Website sim số đẹp -
-                    sim năm sinh</b></span> giá rẻ các
-                mạng Viettel, Mobi, Vina. Bán sim số đẹp giá gốc, đăng ký thông tin chính chủ. Giao sim miễn phí
-                Toàn Quốc</p>
-
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="step" style="margin-top: 0px;">
-        <a href="#">Trang chủ</a> » 
-        <a href="#">Tin Tức</a> » 
-        Mua sim trả góp - Sở hữu liền tay, không lo về giá  
-      </div>
-      <div>
-        <h1 class="h n375">Mua sim trả góp - Sở hữu liền tay, không lo về giá</h1> 
-      </div>
-      <!-- Tra gop -->
-      <div class="des-tg"><strong></strong></div>
-      <div class="des-tg-dt">
-        <h3>SỞ HỮU<strong>&nbsp;SIM TỨ QUÝ&nbsp;<em>chỉ với 3 triệu đồng?!!</em></strong>&nbsp;</h3>
-        <p><strong>Chỉ 3 bước đơn giản sở hữu ngay sim VIP, sim số đẹp:</strong></p>
-        <p><strong>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;►&nbsp;Bước 1:</strong>&nbsp;Chọn sim số đẹp có giá từ&nbsp;<strong>10 triệu</strong>&nbsp;trở lên trên web simdeponline.vn</p>
-        <p><strong>&nbsp; &nbsp; &nbsp; &nbsp;►&nbsp;Bước 2:</strong>&nbsp;Liên hệ&nbsp;hotline:&nbsp;&nbsp;<strong><a href="tel:0902826789">09</a><a href="tel:0973269999">73269999</a>&nbsp;&nbsp;</strong>(đặt mua sim&nbsp;và giải đáp tất cả thắc mắc 24/24)</p>
-        <p><strong>&nbsp; &nbsp; &nbsp; &nbsp;►&nbsp;Bước 3:</strong>&nbsp;Nhận sim,&nbsp;thanh toán 30%&nbsp;giá trị sim và ký hợp đồng (tại cửa hàng giao dịch hoặc tại nhà)</p>
-        <p style="margin-right: 4px"><img alt="Banner STG" src="/assets/imgs/Origin/tragop-compressed.jpg" style="width:100%; " title="This is banner STG"></p>
-        <h2>Quyền lợi&nbsp;khi mua sim trả góp tại simdeponline.vn:</h2>
-        <ul>
-          <li><strong>- Toàn quyền sử dụng sim</strong>&nbsp;ngay sau khi ký hợp đồng</li>
-          <li><strong>- Thời gian&nbsp;trả góp</strong>&nbsp;<strong>không bắt buộc:</strong>&nbsp;có thể tất toán hợp đồng bất cứ thời điểm nào.</li>
-          <li><strong>- Lãi suất ưu đãi nhất!</strong></li>
-          <li><strong>- Thanh toán linh hoạt:</strong>&nbsp;có thể&nbsp;chuyển khoản&nbsp;hoặc yêu cầu thu tiền tại&nbsp;nhà.</li>
-          <li><strong>- Thủ tục đơn giản:&nbsp;</strong>Chỉ cần Chứng minh nhân dân (CMND)</li>
-          <li>- Sang tên khách hàng ngay khi hoàn tất&nbsp;trả góp.</li>
-        </ul>
-        
-        <p><strong>Địa điểm&nbsp;giao dịch mua sim trả góp:</strong></p>
-        
-        <p>Hiện tại Sim Đẹp Online đã có cửa hàng giao dịch tại&nbsp;<strong>Hà Nội</strong>, Tp.<strong>&nbsp;Hồ Chí Minh&nbsp;</strong>và có đại lý ủy quyền tại các tỉnh thành phố trong cả nước. Quý khách có thể đến cửa hàng, đại lý để giao dịch hoặc yêu cầu Sim Đẹp Online cử&nbsp;nhân viên đến tận nhà để&nbsp;ký hợp đồng trả góp và nhận sim ngay trong ngày.</p>
-        
-        <p>✆&nbsp;<strong>Gọi ngay&nbsp;<a href="tel:0902826789">09</a><a href="tel:0973269999">73269999</a>&nbsp;để được&nbsp;tư vấn chi tiết!&nbsp;</strong></p>
-      </div>
-
-      <div class="news ">
-        
-          <strong>Tin tức liên quan</strong><br>
-        <div class="pl-2">
-          <a href="#">Tham khảo ngay cách chuyển 3G sang 4G miễn phí và đơn giản ai cũng làm được</a> <br>
-          <a href="#">Tìm hiểu cách hủy 3G Vietnamobile, cách hủy 4G Vietnamobile đơn giản, chi tiết</a> <br>
-          <a href="#">Lưu ngay: cách hủy 3G Vinaphone và cách hủy 4G Vinaphone mới nhất 2021</a> <br>
-          <a href="#">Bật mí cách hủy 3G Viettel, cách hủy 4G Viettel đơn giản ai cũng làm được</a> <br>
-          <a href="#">Hướng dẫn cách hủy 3G, 4G đầy đủ các nhà mạng Viettel, Mobifone, Vinaphone, Vietnamobile</a> <br>
-          <a href="#">Có thể bạn chưa biết: Cách bắn tiền Vietnamobile với thao tác cực đơn giản</a> <br>
-          <a href="#">Bỏ túi ngay cách thực hiện bắn tiền Vina nhanh gọn nhất</a> <br>
-          <a href="#">Nắm trong tay cách bắn tiền Mobi cực dễ thực hiện</a> <br>
-          <a href="#">Note ngay cách bắn tiền Viettel nhanh chóng, đơn giản ai cũng có thể thực hiện</a> <br>
-          <a href="#">Cập nhật đầy đủ các số tổng đài Vietnamobile mới nhất 2021</a> <br>
-
-        </div>
-      </div>
-    </div>
-    
-        <!-- Sidebar Right -->
-    <div class="col-12 col-sm col-md">
-        <div class="box1 row">
-          <div class="card cart-custom-1 w-100">
-            <h2 id="head3s" class="form-control">Đơn hàng mới</h2>
-
-            <div class="card-body px-2">
-              <form id="widget-left-form1" method="post" role="search">
-                <div class="form-row">
-                  <div class="col-12 col-sm-12 col-md-12 mb-2">
-                    <marquee direction="up" width="185" onmouseover="this.stop()" scrolldelay="1" scrollamount="2"
-                      onmouseout="this.start()" height="100" align="center">
-                      <ul id="don-hang-moi">
-                        <li>
-                          <p class="cr">
-                            Nguyễn Quang Trường
-                            <br />
-                            <span class="">Đặt sim: </span><strong>03345****9</strong>
-                            <br />
-                            <span>Vào ngày: 04/02/2021</span>
-                            <br />
-                            <span>--------------------------</span>
-                          </p>
-                        </li>
-                        <li>
-                          <p class="cr">
-                            Lê Bảo Bình
-                            <br />
-                            <span class="">Đặt sim: </span><strong>03345****9</strong>
-                            <br />
-                            <span>Vào ngày: 04/02/2021</span>
-                            <br />
-                            <span>--------------------------</span>
-                          </p>
-                        </li>
-                        <li>
-                          <p class="cr">
-                            Dương Cát Luynh
-                            <br />
-                            <span class="">Đặt sim: </span><strong>03345****9</strong>
-                            <br />
-                            <span>Vào ngày: 04/02/2021</span>
-                            <br />
-                            <span>--------------------------</span>
-                          </p>
-                        </li>
-                        <li>
-                          <p class="cr">
-                            Đỗ Thu Huyền
-                            <br />
-                            <span class="">Đặt sim: </span><strong>03345****9</strong>
-                            <br />
-                            <span>Vào ngày: 04/02/2021</span>
-                            <br />
-                            <span>--------------------------</span>
-                          </p>
-                        </li>
-                        <li>
-                          <p class="cr">
-                            Nguyễn Thị Hồng Phấn
-                            <br />
-                            <span class="">Đặt sim: </span><strong>03345****9</strong>
-                            <br />
-                            <span>Vào ngày: 04/02/2021</span>
-                            <br />
-                            <span>--------------------------</span>
-                          </p>
-                        </li>
-
-
-                      </ul>
-
-                    </marquee>
-                  </div>
-
-                </div>
-
-              </form>
+          <div id="bl-4 codinh">
+            <div style="margin:auto; padding: 10px;" id="scrol">
+              <input type="tel" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Nhập số cần tìm"
+                style="color:black;" id="txtse" value="" required="">
+              <button value="Tìm SIM" name="submit" type="submit" class="btntim" style="margin-top: 10px;"> Tìm
+                Sim</button>
+              <ul class="huongdan nul nban" style="padding-left: 15px; display: block; color: white; margin-top: 5px;">
+                <li>Tìm sim có số <strong>6789</strong> bạn hãy gõ <strong>6789</strong>
+                </li>
+                <li>Tìm sim có đầu <strong>090 </strong>đuôi <strong>6789</strong> hãy gõ <strong>090*6789</strong>
+                </li>
+                <li>Tìm sim bắt đầu bằng <strong>0914</strong> đuôi bất kỳ, hãy gõ:&nbsp;<strong>0914*</strong>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-        <div class="box2 row border mt-3">
-
-          <h2 class="form-control" id="head6s">Truy cập</h2>
-
-          <ul class="b2-list ">
-            <li class="off1"><a class="b2-item "> Đang online: <span class="cr">1201333</span> </a></li>
-            <li class="off1"><a class="b2-item "> Hôm nay có: <span class="cb">3401333</span></a></li>
-            <li class="off1"><a class="b2-item "> Tổng cộng: <span class="cb">3401333</span></a></li>
-          </ul>
-
         </div>
-
-        <div class="box4 row border mt-3">
-          <h2 id="head4s" class="form-control"><i class="far fa-newspaper fs-120 text-danger">&nbsp;</i>Tin mới cập nhật
+        
+        <div class="gr n992 stgn">
+          <h2 class="tt992 fs-17" style="background: #0098db;">
+              <span class="text">Sim Số Đẹp</span>
           </h2>
-          <div class="col-12">
-            <ul style="margin-top: 10px" class="list">
-              <li class="litem">
-                <a href="#">
-                  <p>Mạng Vinaphone – Đầu số 0124 đổi thành đầu số gì?</p>
-                </a>
-              </li>
-              <li class="litem">
-                <a href="#">
-                  <p>Mạng MobiFone – Đầu số 0122 đổi thành đầu số gì?</p>
-                </a>
-              </li>
-              <li class="litem">
-                <a href="#">
-                  <p>Mạng Vinaphone – Đầu số 0123 đổi thành đầu số gì?</p>
-                </a>
-              </li>
-              <li class="litem">
-                <a href="#">
-                  <p>Cập nhật số điện thoại tổng đài ngân hàng SCB mới nhất 2021</p>
-                </a>
-              </li>
-              <li class="litem">
-                <a href="#">
-                  <p>Note ngay cách bắn tiền Viettel nhanh chóng, đơn giản ai cũng có thể thực hiện</p>
-                </a>
-              </li>
+          <div class="box-sim" >
+            <ul class="sim-nhamang">
+              <li><a href="sim-so-dep-viettel.html" class="icon cb icon-vt">Viettel</a></li>
+              <li><a href="sim-so-dep-mobifone.html" class="icon cb icon-mb">Mobifone</a></li>
+              <li><a href="sim-so-dep-vinaphone.html" class="icon cb icon-vn">&nbsp;&nbsp;VinaPhone</a></li>
+              <li><a href="sim-so-dep-vietnamobile.html" class="icon cb icon-vnmb">&nbsp;&nbsp;VietNamobile</a></li>
             </ul>
           </div>
         </div>
-        <div class="box3 row border mt-3 pb-4 none">
+
+        <div class="lt-sim l-n stgn">
+              <ul>
+                <li class="sv"><a href="#"> Sim Viettel </a></li>
+                <li class="sv"><a href="#"> Sim Năm Sinh </a></li>
+                <li class="sv"><a href="#"> Sim Tam Hoa </a></li>
+                <li class="sv"><a href="#"> Sim Tứ Quý </a></li>
+                <li class="sv"><a href="#"> Sim Ngũ Quý </a></li>
+                <li class="sv"><a href="#"> Sim Lục Quý </a></li>
+                <li class="sv"><a href="#"> Sim Lộc Phát </a></li>
+              </ul>
+        </div>
+        <!-- BOX 5 -->
+        <div class="box6 none">
+          <div id="bl-2 ">
+            <div class="bl-3">
+              <div class="nt" style="margin-top: 17px;">
+                <p><span class=" text-weight-bold"><b>Website sim số đẹp -
+                      sim năm sinh</b></span> giá rẻ các
+                  mạng Viettel, Mobi, Vina. Bán sim số đẹp giá gốc, đăng ký thông tin chính chủ. Giao sim miễn phí
+                  Toàn Quốc</p>
+  
+              </div>
+  
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="step stgn">
+            <a href="#">Trang chủ</a> » 
+            <a href="#">Tin Tức</a> » 
+            Mua sim trả góp - Sở hữu liền tay, không lo về giá  
+        </div>
+          <div>
+            <h1 class="h n375">Mua sim trả góp - Sở hữu liền tay, không lo về giá</h1> 
+          </div>
+          <!-- Tra gop -->
+          <div class="des-tg"><strong></strong></div>
+          <div class="des-tg-dt">
+            <h3>SỞ HỮU<strong>&nbsp;SIM TỨ QUÝ&nbsp;<em>chỉ với 3 triệu đồng?!!</em></strong>&nbsp;</h3>
+            <p><strong>Chỉ 3 bước đơn giản sở hữu ngay sim VIP, sim số đẹp:</strong></p>
+            <p><strong>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;►&nbsp;Bước 1:</strong>&nbsp;Chọn sim số đẹp có giá từ&nbsp;<strong>10 triệu</strong>&nbsp;trở lên trên web simdeponline.vn</p>
+            <p><strong>&nbsp; &nbsp; &nbsp; &nbsp;►&nbsp;Bước 2:</strong>&nbsp;Liên hệ&nbsp;hotline:&nbsp;&nbsp;<strong><a href="tel:0902826789">09</a><a href="tel:0973269999">73269999</a>&nbsp;&nbsp;</strong>(đặt mua sim&nbsp;và giải đáp tất cả thắc mắc 24/24)</p>
+            <p><strong>&nbsp; &nbsp; &nbsp; &nbsp;►&nbsp;Bước 3:</strong>&nbsp;Nhận sim,&nbsp;thanh toán 30%&nbsp;giá trị sim và ký hợp đồng (tại cửa hàng giao dịch hoặc tại nhà)</p>
+            <p style="margin-right: 4px"><img alt="Banner STG" src="/assets/imgs/Origin/tragop-compressed.jpg" style="width:100%; " title="This is banner STG"></p>
+            <h2>Quyền lợi&nbsp;khi mua sim trả góp tại simdeponline.vn:</h2>
+            <ul>
+              <li><strong>- Toàn quyền sử dụng sim</strong>&nbsp;ngay sau khi ký hợp đồng</li>
+              <li><strong>- Thời gian&nbsp;trả góp</strong>&nbsp;<strong>không bắt buộc:</strong>&nbsp;có thể tất toán hợp đồng bất cứ thời điểm nào.</li>
+              <li><strong>- Lãi suất ưu đãi nhất!</strong></li>
+              <li><strong>- Thanh toán linh hoạt:</strong>&nbsp;có thể&nbsp;chuyển khoản&nbsp;hoặc yêu cầu thu tiền tại&nbsp;nhà.</li>
+              <li><strong>- Thủ tục đơn giản:&nbsp;</strong>Chỉ cần Chứng minh nhân dân (CMND)</li>
+              <li>- Sang tên khách hàng ngay khi hoàn tất&nbsp;trả góp.</li>
+            </ul>
+            
+            <p><strong>Địa điểm&nbsp;giao dịch mua sim trả góp:</strong></p>
+            
+            <p>Hiện tại Sim Đẹp Online đã có cửa hàng giao dịch tại&nbsp;<strong>Hà Nội</strong>, Tp.<strong>&nbsp;Hồ Chí Minh&nbsp;</strong>và có đại lý ủy quyền tại các tỉnh thành phố trong cả nước. Quý khách có thể đến cửa hàng, đại lý để giao dịch hoặc yêu cầu Sim Đẹp Online cử&nbsp;nhân viên đến tận nhà để&nbsp;ký hợp đồng trả góp và nhận sim ngay trong ngày.</p>
+            
+            <p>✆&nbsp;<strong>Gọi ngay&nbsp;<a href="tel:0902826789">09</a><a href="tel:0973269999">73269999</a>&nbsp;để được&nbsp;tư vấn chi tiết!&nbsp;</strong></p>
+          </div>
+    
+          <div class="news ">
+            
+              <strong>Tin tức liên quan</strong><br>
+            <div class="pl-2">
+              <a href="#">Tham khảo ngay cách chuyển 3G sang 4G miễn phí và đơn giản ai cũng làm được</a> <br>
+              <a href="#">Tìm hiểu cách hủy 3G Vietnamobile, cách hủy 4G Vietnamobile đơn giản, chi tiết</a> <br>
+              <a href="#">Lưu ngay: cách hủy 3G Vinaphone và cách hủy 4G Vinaphone mới nhất 2021</a> <br>
+              <a href="#">Bật mí cách hủy 3G Viettel, cách hủy 4G Viettel đơn giản ai cũng làm được</a> <br>
+              <a href="#">Hướng dẫn cách hủy 3G, 4G đầy đủ các nhà mạng Viettel, Mobifone, Vinaphone, Vietnamobile</a> <br>
+              <a href="#">Có thể bạn chưa biết: Cách bắn tiền Vietnamobile với thao tác cực đơn giản</a> <br>
+              <a href="#">Bỏ túi ngay cách thực hiện bắn tiền Vina nhanh gọn nhất</a> <br>
+              <a href="#">Nắm trong tay cách bắn tiền Mobi cực dễ thực hiện</a> <br>
+              <a href="#">Note ngay cách bắn tiền Viettel nhanh chóng, đơn giản ai cũng có thể thực hiện</a> <br>
+              <a href="#">Cập nhật đầy đủ các số tổng đài Vietnamobile mới nhất 2021</a> <br>
+    
+            </div>
+          </div>
+        </div>
+        
+            <!-- Sidebar Right -->
+        <div class="col-12 col-sm col-md" id="right">
+            <div class="box1 row">
+              <div class="card cart-custom-1 w-100">
+                <h2 id="head3s" class="form-control">Đơn hàng mới</h2>
+    
+                <div class="card-body px-2">
+                  <form id="widget-left-form1" method="post" role="search">
+                    <div class="form-row">
+                      <div class="col-12 col-sm-12 col-md-12 mb-2">
+                        <marquee direction="up" width="185" onmouseover="this.stop()" scrolldelay="1" scrollamount="2"
+                          onmouseout="this.start()" height="100" align="center">
+                          <ul id="don-hang-moi">
+                            <li>
+                              <p class="cr">
+                                Nguyễn Quang Trường
+                                <br />
+                                <span class="">Đặt sim: </span><strong>03345****9</strong>
+                                <br />
+                                <span>Vào ngày: 04/02/2021</span>
+                                <br />
+                                <span>--------------------------</span>
+                              </p>
+                            </li>
+                            <li>
+                              <p class="cr">
+                                Lê Bảo Bình
+                                <br />
+                                <span class="">Đặt sim: </span><strong>03345****9</strong>
+                                <br />
+                                <span>Vào ngày: 04/02/2021</span>
+                                <br />
+                                <span>--------------------------</span>
+                              </p>
+                            </li>
+                            <li>
+                              <p class="cr">
+                                Dương Cát Luynh
+                                <br />
+                                <span class="">Đặt sim: </span><strong>03345****9</strong>
+                                <br />
+                                <span>Vào ngày: 04/02/2021</span>
+                                <br />
+                                <span>--------------------------</span>
+                              </p>
+                            </li>
+                            <li>
+                              <p class="cr">
+                                Đỗ Thu Huyền
+                                <br />
+                                <span class="">Đặt sim: </span><strong>03345****9</strong>
+                                <br />
+                                <span>Vào ngày: 04/02/2021</span>
+                                <br />
+                                <span>--------------------------</span>
+                              </p>
+                            </li>
+                            <li>
+                              <p class="cr">
+                                Nguyễn Thị Hồng Phấn
+                                <br />
+                                <span class="">Đặt sim: </span><strong>03345****9</strong>
+                                <br />
+                                <span>Vào ngày: 04/02/2021</span>
+                                <br />
+                                <span>--------------------------</span>
+                              </p>
+                            </li>
+    
+    
+                          </ul>
+    
+                        </marquee>
+                      </div>
+    
+                    </div>
+    
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="box2 row border mt-3">
+    
+              <h2 class="form-control" id="head6s">Truy cập</h2>
+    
+              <ul class="b2-list ">
+                <li class="off1"><a class="b2-item "> Đang online: <span class="cr">1201333</span> </a></li>
+                <li class="off1"><a class="b2-item "> Hôm nay có: <span class="cb">3401333</span></a></li>
+                <li class="off1"><a class="b2-item "> Tổng cộng: <span class="cb">3401333</span></a></li>
+              </ul>
+    
+            </div>
+    
+            <div class="box4 row border mt-3">
+              <h2 id="head4s" class="form-control"><i class="far fa-newspaper fs-120 text-danger">&nbsp;</i>Tin mới cập nhật
+              </h2>
+              <div class="col-12">
+                <ul style="margin-top: 10px" class="list">
+                  <li class="litem">
+                    <a href="#">
+                      <p>Mạng Vinaphone – Đầu số 0124 đổi thành đầu số gì?</p>
+                    </a>
+                  </li>
+                  <li class="litem">
+                    <a href="#">
+                      <p>Mạng MobiFone – Đầu số 0122 đổi thành đầu số gì?</p>
+                    </a>
+                  </li>
+                  <li class="litem">
+                    <a href="#">
+                      <p>Mạng Vinaphone – Đầu số 0123 đổi thành đầu số gì?</p>
+                    </a>
+                  </li>
+                  <li class="litem">
+                    <a href="#">
+                      <p>Cập nhật số điện thoại tổng đài ngân hàng SCB mới nhất 2021</p>
+                    </a>
+                  </li>
+                  <li class="litem">
+                    <a href="#">
+                      <p>Note ngay cách bắn tiền Viettel nhanh chóng, đơn giản ai cũng có thể thực hiện</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        <div class="box3 row border mt-3 pb-4 htkh">
 
           <h2 class="form-control none" id="head8s">Hỗ trợ khách hàng</h2>
 
@@ -508,12 +533,10 @@
                   style="width: 24px; height: 24px; color: aliceblue;" alt=""> 0987.333.999 </a></li>
           </ul>
         </div>
-    </div>
+      </div>
     </div>
   </div>
-
-  <!-- FOOTER -->
-  <div id="footer-nav" style="background: #e5e6d5;text-align: center; height: 31px; line-height: 31px;">
+  <div id="footer-nav" class="ftt">
         <a href="#" rel="nofollow">Tìm kiếm</a> &nbsp;&nbsp;| &nbsp;&nbsp;
         <a href="#" rel="nofollow">Giới thiệu</a>&nbsp;&nbsp;| &nbsp;&nbsp;
         <a href="#" rel="nofollow">Mua hàng và Thanh toán</a> &nbsp;&nbsp;| &nbsp;&nbsp;
@@ -526,14 +549,14 @@
 
 
 
-  <div class="outer-container">
+  <div class="outer-container ftt1">
 
     <div class="container">
       <div class="row footership" id="footer1">
 
         <div class="col-md-4">
           <img alt="giao hàng" class="img-responsive img-fluid"
-            src="https://simdeponline.vn/images/c56c3c29395e2261a2a121d20e1e60b6.gif">
+            src="./assets/imgs/Card/c56c3c29395e2261a2a121d20e1e60b6.gif">
           <span style="font-size:20px;">
             <strong>Giao hàng nhanh</strong>
           </span>
@@ -543,7 +566,7 @@
         <div class="col-md-4">
           <div>
             <img alt="thanh toán" class="img-responsive img-fluid"
-              src="https://simdeponline.vn/images/5425e0c7253e185a47923d013a2ed6af.gif">
+              src="./assets/imgs/Card/5425e0c7253e185a47923d013a2ed6af.gif">
             <span style="font-size:20px;">
               <strong>Thanh toán tiện</strong>
             </span><br>Tùy chọn thanh toán tiền mặt, chuyển khoản, thanh toán qua thẻ hoặc Internet banking
@@ -551,7 +574,7 @@
         </div>
         <div class="col-md-4">
           <img alt="mạng lưới" class="img-responsive img-fluid"
-            src="https://simdeponline.vn/images/f6e1b8f7bf074c26458905976cafbeb4.gif">
+            src="./assets/imgs/Card/f6e1b8f7bf074c26458905976cafbeb4.gif">
           <span style="font-size:20px;">
             <strong>Mạng lưới rộng</strong>
           </span><br>Mạng lưới di dộng các mạng, Viettel, Vinaphone, Mobifone phủ sóng khắp cả nước.
