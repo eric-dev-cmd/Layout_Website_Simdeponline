@@ -179,7 +179,7 @@ a {
 
 
 .box5{
-    background-color: #3097d1;
+    background-color: #0098db;
     margin: 0;
 }
 .box6{
@@ -1016,12 +1016,11 @@ a {
 }
 @media screen and (min-width: 376px) and (max-width: 414px){
     #sim-tt{
+        top: 1300px !important;
+    }
+    .sim-tt{
         top: 4800px  !important;
     }
-}
-/* Iphone 6 */
-@media only screen and (max-width: 414px){
-
     .z-tt1{
         top: 4880px !important;
 }
@@ -1033,10 +1032,7 @@ a {
         padding: 0 10px !important;
 
     }
-    #sim-tt{
-        top: 4890px  !important;
 
-    }
     #footer-nav{
         margin-top: 179px !important;
     }
@@ -1059,8 +1055,8 @@ a {
         left: 0;
         right: 0;
     }
-
-} 
+}
+/* Iphone 6 */
 /* =========================================================== */
 @media screen and (max-width: 375px){
     .ftt1{
