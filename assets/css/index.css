@@ -707,25 +707,14 @@ a {
     }
 
 }
-@media screen and (min-width: 768){
-    #sim-tt > div{
-        position: relative;
-        top: 888px !important;
+@media screen and (max-width: 769){
+    div.z-tt4{
+        top: 1918px !important;
+        left: 0;
+        right: 0;
     }
 }
-@media screen and (min-width: 769px) and (max-width:992px) {
 
-
-
-    .stm{
-        position: relative;
-    }
-    .gt{
-        position: relative;    }
-    .ssd{
-        position: relative;
-    }
-}
 /* =========================================================== */
 @media screen and (max-width: 991px) {
 
@@ -736,7 +725,7 @@ a {
         margin-top: 102px !important;
     }
     .z-tt{
-        top: 1880px !important;
+        top: 1920px !important;
     }
     .maintt{
         margin-top: -48px;
@@ -1025,8 +1014,13 @@ a {
     }
 
 }
+@media screen and (min-width: 376px) and (max-width: 414px){
+    #sim-tt{
+        top: 4800px  !important;
+    }
+}
 /* Iphone 6 */
-@media screen and (max-width: 414px){
+@media only screen and (max-width: 414px){
 
     .z-tt1{
         top: 4880px !important;
@@ -1040,7 +1034,7 @@ a {
 
     }
     #sim-tt{
-        top: 1290px  !important;
+        top: 4890px  !important;
 
     }
     #footer-nav{
