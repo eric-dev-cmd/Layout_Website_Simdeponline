@@ -630,65 +630,6 @@ a {
     text-align: center;
     text-transform: uppercase;
 }
-@media screen and (max-width: 991px){
-    .first{
-        order: 2;
-    }
-    .second{
-        order: 1;
-    }
-    .three{
-        order: 3;
-    }
-    .none{
-        display: none;
-    }
-
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px){
-    .btntim{
-        margin-top: 20px;
-    }
-}
-@media screen (max-width: 1023px)  {
-    .ipadn{
-        display: none;
-    }
-    .btntim{
-        top: 3px;
-    }
-    .htkh{
-        display: flex;
-        justify-content: space-between;
-    }
-    ul.htkh li{
-        min-width: 160px;
-    }
-    .codinh{
-        position: fixed;
-        top: -2px;
-        left: 0px;
-        right: 15px;
-        z-index: 999999;
-        width: 100%;
-    }
-    .gr{
-        margin-top: -20px;
-    }
-    .nav{
-        margin-top: 38px;
-    }
-    .first{
-        order: 2;
-    }
-    .second{
-        order: 1;
-    }
-    .three{
-        order: 3;
-    }
-}
 .bl-f{
     border-bottom: 1px solid #ddd;
 }
@@ -775,7 +716,7 @@ div.step:hover a{
     color:white !important
 }
 .datsim{
-    background: #057aac;
+    background-image: linear-gradient(0, #43cea2 , #185a9d);
 }
 .cb1{
     color: #057aac;
@@ -865,7 +806,6 @@ h3.ckbh{
     color: red;
 }
 .ds-ct {
-    border: 1px solid;
     padding: 10px;
     max-height: 500px;
     overflow: scroll;
@@ -887,14 +827,15 @@ h3.ckbh{
     
 }
 .ctmd .box4g > .bitem{
-    width: 32%;
+    width: 48%;
+    margin: 0.8%;
     display: inline-block;
     min-height: 260px;
     border-radius: 1.0rem;
 
 }
 div.bitem{
-    box-shadow: 25px 28px 100px 15px rgba(28, 53, 197, 0.52) inset;
+    box-shadow: 25px 28px 100px 15px rgba(159, 168, 219, 0.52) inset;
 }
 div.bidata ul > li h2{
     background: rgb(9, 79, 160);
@@ -907,7 +848,7 @@ div.bidata ul > li{
     line-height: 30px;
 }
 button.btndk{
-    background: rgb(14, 84, 165);
+    background-image: linear-gradient(0, #141e30,  #243b55);
     margin-bottom: 10px;
     padding: 10px;
     display: inline-block;
@@ -925,7 +866,7 @@ button.btndk{
 
 }
 .btndk:hover{
-    color: rgb(211, 181, 50);
+    color: rgb(118, 216, 73);
 }
 .mg-10{
     margin-top: 10px;
@@ -1028,8 +969,76 @@ ul.huongdan{
     font-size: 13px;
     font-weight: 400;
 }
+.content{
+    padding: 0 15px;
+}
+.h{
+    height: 41px;
+    font-size: 19px;
+    line-height: 31px;
+}
+@media screen and (max-width: 991px){
+    .first{
+        order: 2;
+    }
+    .second{
+        order: 1;
+    }
+    .three{
+        order: 3;
+    }
+    .none{
+        display: none;
+    }
 
+}
 
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .btntim{
+        margin-top: 20px;
+    }
+    .mt-f{
+        margin-top: 65px;
+    }
+}
+@media screen (max-width: 1023px)  {
+    .ipadn{
+        display: none;
+    }
+    .btntim{
+        top: 3px;
+    }
+    .htkh{
+        display: flex;
+        justify-content: space-between;
+    }
+    ul.htkh li{
+        min-width: 160px;
+    }
+    .codinh{
+        position: fixed;
+        top: -2px;
+        left: 0px;
+        right: 15px;
+        z-index: 999999;
+        width: 100%;
+    }
+    .gr{
+        margin-top: -20px;
+    }
+    .nav{
+        margin-top: 38px;
+    }
+    .first{
+        order: 2;
+    }
+    .second{
+        order: 1;
+    }
+    .three{
+        order: 3;
+    }
+}
 /* Mobile && Tablet */
 @media (min-width: 1024px){
     .hide{
@@ -1107,7 +1116,10 @@ ul.huongdan{
    
 }
 /* Mobile */
-@media (max-width: 767px){
+@media screen and (max-width: 767px){
+    .htnull{
+        display: none !important;
+    }
     .btntim{
         width: 105px;
     }
@@ -1162,5 +1174,13 @@ ul.huongdan{
     .b5-list li{
     width: 90%; 
     max-width: 353px;       
+    }
+}
+@media screen and (max-width: 415px)  {
+    .null{
+        display: none !important;
+    }
+    .mt-f{
+        margin-top: 65px;
     }
 }
